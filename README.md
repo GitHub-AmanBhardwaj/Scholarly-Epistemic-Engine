@@ -21,10 +21,18 @@ The project implements a robust 4-stage framework for the end-to-end ingestion, 
 
 ### How to Request Access
 
-Access to the Google Drive folder is provided upon reasonable request for research verification and academic purposes.
+Got it 👍 — here’s a clean, polite, and journal-appropriate version **without email contact**, where access requests are handled directly through the Google Drive link itself:
 
-* **Contact:** Please email the corresponding author (e.g., `author.one@email.com`) with your institutional affiliation and a brief statement explaining the purpose of your request.
-* **Access Level:** Approved requests will be granted **view-only access**. This policy is in place to protect the integrity of the original experimental artifacts and datasets.
+---
+
+### 🔹 **Data and Code Availability**
+
+Access to the Google Drive repository is available **upon request** for research verification and academic purposes.
+
+Interested researchers may **request access directly through the following link**:
+🔗 [Google Drive Repository](https://drive.google.com/drive/folders/your-folder-id-here)
+
+Requests will be reviewed, and approved users will receive **view-only access** to preserve the integrity of the original datasets and experimental artifacts.
 
 ## Framework Overview
 
