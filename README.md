@@ -1,8 +1,8 @@
 # A Scalable Engineering Methodology for the Diachronic Construction of a Semantically-Vectorized Epistemic Repository from Unstructured Scholarly Corpora
 
-This repository serves as the public abstract and access point for the research paper, "A Scalable Engineering Methodology for the Diachronic Construction of a Semantically-Vectorized Epistemic Repository from Unstructured Scholarly Corpora."
+The research paper titled "A Scalable Engineering Methodology for the Diachronic Construction of a Semantically-Vectorized Epistemic Repository from Unstructured Scholarly Corpora" is made public through this repository, which serves as the abstract and access point.
 
-The project implements a robust 4-stage framework for the end-to-end ingestion, processing, and vectorization of a large, longitudinal, and unstructured document corpus (the 30-year arXiv `cs.AI` collection). The resulting high-dimensional knowledge base (7.5 million vectors) serves as the retrieval backend for an advanced Retrieval-Augmented Generation (RAG) query engine, demonstrating a scalable solution for complex, domain-specific knowledge discovery.
+The project is based on a well-structured 4-stage framework for the complete ingestion, processing, and vectorization of a vast, longitudinal, and unstructured document corpus (the 30-year arXiv `cs.AI` collection). The outcome high-dimensional knowledge base (7.5 million vectors) acts as the retrieval backend for an innovative Retrieval-Augmented Generation (RAG) query engine, thus being the proof of a scalable alternative for the revelation of complex, domain-specific knowledge.
 
 ## Access to Project Artifacts & Code
 
@@ -30,7 +30,7 @@ Got it 👍 — here’s a clean, polite, and journal-appropriate version **with
 Access to the Google Drive repository is available **upon request** for research verification and academic purposes.
 
 Interested researchers may **request access directly through the following link**:
-🔗 [Google Drive Repository](https://drive.google.com/drive/folders/your-folder-id-here)
+🔗 [Google Drive Repository]([https://drive.google.com/drive/folders/your-folder-id-here](https://drive.google.com/drive/folders/1UlyTblrofWos_URo3QGEPGyI-CKJchdh?usp=drive_link))
 
 Requests will be reviewed, and approved users will receive **view-only access** to preserve the integrity of the original datasets and experimental artifacts.
 
