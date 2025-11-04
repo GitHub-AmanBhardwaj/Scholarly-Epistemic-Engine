@@ -30,9 +30,8 @@ Got it 👍 — here’s a clean, polite, and journal-appropriate version **with
 Access to the Google Drive repository is available **upon request** for research verification and academic purposes.
 
 Interested researchers may **request access directly through the following link**:
-<a href="https://drive.google.com/drive/folders/1UlyTblrofWos_URo3QGEPGyI-CKJchdh?usp=drive_link" target="_blank" style="background:linear-gradient(90deg,#0073e6,#00c6ff); color:white; padding:8px 14px; border-radius:8px; font-weight:bold; text-decoration:none;">
-🚀 View the Google Drive Repository
-</a>
+[![Drive Access](https://img.shields.io/badge/Google%20Drive-Request%20Access-blue?logo=googledrive)](https://drive.google.com/drive/folders/1UlyTblrofWos_URo3QGEPGyI-CKJchdh?usp=drive_link)
+
 
 
 Requests will be reviewed, and approved users will receive **view-only access** to preserve the integrity of the original datasets and experimental artifacts.
