@@ -58,9 +58,4 @@ The project methodology is divided into a 4-stage framework:
 ## Citation
 
 ```bibtex
-@article{your_name_2025,
-  title   = {A Scalable Engineering Methodology for the Diachronic Construction of a Semantically-Vectorized Epistemic Repository from Unstructured Scholarly Corpora},
-  author  = {Author, One and Author, Two},
-  journal = {Knowledge-Based Systems},
-  year    = {2025}
-}
+@article{}
