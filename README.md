@@ -19,11 +19,6 @@ The project is based on a well-structured 4-stage framework for the complete ing
 >
 > 3.  **Resource Management:** The models and data pipelines require specific hardware configurations (e.g., high-VRAM GPUs), and providing access via a managed repository ensures that reviewers or researchers can inspect the exact environment that produced the results.
 
-### How to Request Access
-
-Got it 👍 — here’s a clean, polite, and journal-appropriate version **without email contact**, where access requests are handled directly through the Google Drive link itself:
-
----
 
 ### 🔹 **Data and Code Availability**
 
