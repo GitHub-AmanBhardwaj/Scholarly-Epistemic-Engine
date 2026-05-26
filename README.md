@@ -2,7 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Data: Hugging Face](https://img.shields.io/badge/Data-Hugging%20Face-orange)](https://huggingface.co/datasets/[YOUR_USERNAME]/[YOUR_DATASET])
-[![Paper: Under Review](https://img.shields.io/badge/Paper-Under%20Review-green)](#)
 
 ## Overview
 
