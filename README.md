@@ -72,8 +72,9 @@ To ensure full reproducibility, the implementation materials and datasets suppor
 * **Dataset & Embeddings:** The complete processed corpus (87,984 manuscripts, 7.49 million chunks) and the pre-computed `all-mpnet-base-v2` ChromaDB vectors (>50 GB) are hosted on Hugging Face.
 
 **Access the dataset here:**  
-🤗 [Dataset Link](https://huggingface.co/datasets/whyamanbhardwaj/Scholarly-Epistemic-Engine)
+
 [🤗 Hugging Face Dataset – Scholarly-Epistemic-Engine](https://huggingface.co/datasets/whyamanbhardwaj/Scholarly-Epistemic-Engine)
+
 ---
 
 ## Installation and Setup
