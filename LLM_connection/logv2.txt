@@ -1,0 +1,69 @@
+Ask a research question (or type 'quit' to exit): tell me about recent research on transformers
+
+--- New Query ---
+Original Query: tell me about recent research on transformers
+Step 1: Rewriting query with LLM for better retrieval...
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query for Search: Here's an optimized search statement for a vector database of research papers:
+
+"Recent advancements in transformer architecture, transformer models, transformer applications, transformer-based deep learning, transformer research 2020-2023, transformer papers, transformer publications, transformer state-of-the-art results, transformer performance evaluation, transformer applications in natural language processing, computer vision, and speech recognition."
+
+This search statement includes the following elements to optimize for semantic search:
+
+1. **Specific keywords**: "transformers", "architecture", "models
+Step 2: Retrieving relevant documents from the database...
+Step 3: Constructing prompt for the LLM...
+Step 4: Generating answer with the LLM...
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+
+--- Generated Answer ---
+Recent research on transformers has focused on their application in information retrieval (IR)
+tasks. Several studies have utilized transformer-based models, such as BERT and its variants, to
+improve the accuracy and efficiency of IR systems. These models have been fine-tuned on various
+datasets, including the MSMARCO dataset, which has become a standard benchmark for ad-hoc retrieval.
+One key challenge in IR is the lexical gap, where models struggle to retrieve documents containing
+keywords not present in the query. To address this issue, researchers have explored the use of pre-
+trained transformer models, such as BERT, which can capture contextual relationships between words.
+Recent studies have also investigated the use of hybrid search approaches, combining lexical and
+semantic search methods. These approaches have shown promising results, with notable enhancements in
+performance observed when integrating lexical search with semantic search.  Furthermore, researchers
+have proposed new benchmarks, such as BEIR, to evaluate the performance of transformer-based IR
+models in zero-shot scenarios. These benchmarks aim to assess the models' ability to retrieve
+relevant information without fine-tuning on specific datasets.  In addition, studies have explored
+the use of transformer-based models in various domains, including biomedical text, where they have
+been used to improve the accuracy of semantic search and question-answering systems.  Overall,
+recent research on transformers has made significant progress in improving the accuracy and
+efficiency of IR systems, with a focus on addressing the lexical gap and exploring hybrid search
+approaches.  TITLES OF PAPERS USED AS SOURCES:  1. 'Semantic Search and Recommendation Algorithm' 2.
+'Continuous Active Learning Using Pretrained Transformers' 3. 'Ontology-Based Query Expansion with
+Latently Related Named Entities for Semantic Text Search' 4. 'Verif.ai: Towards an Open-Source
+Scientific Generative Question-Answering System with Referenced and Verifiable Answers' 5. 'BEIR: A
+Heterogenous Benchmark for Zero-shot Evaluation of Information Retrieval Models' 6. 'CO-Search:
+COVID-19 Information Retrieval with Semantic Search, Question Answering, and Abstractive
+Summarization' 7. 'Dynamic Q&A of Clinical Documents with Large Language Models' 8. 'How do you know
+that? Teaching Generative Language Models to Reference Answers to Biomedical Questions' 9. 'Cross-
+language Information Retrieval' 10. 'LitLLMs, LLMs for Literature Review: Are we there yet?' 11.
+'Software engineering for artificial intelligence and machine learning software: A systematic
+literature review' 12. 'Dynamic Q&A of Clinical Documents with Large Language
+
+--- Sources Used ---
+- AI Techniques in the Microservices Life-Cycle: A Systematic Mapping Study
+- BEIR: A Heterogenous Benchmark for Zero-shot Evaluation of Information Retrieval Models
+- CO-Search: COVID-19 Information Retrieval with Semantic Search, Question Answering, and Abstractive Summarization
+- Continuous Active Learning Using Pretrained Transformers
+- Cross-language Information Retrieval
+- Dynamic Q&A of Clinical Documents with Large Language Models
+- Evaluating Dense Passage Retrieval using Transformers
+- Evaluating the Factuality of Zero-shot Summarizers Across Varied Domains
+- Filter Bubbles in Recommender Systems: Fact or Fallacy -- A Systematic Review
+- How do you know that? Teaching Generative Language Models to Reference Answers to Biomedical Questions
+- LitLLMs, LLMs for Literature Review: Are we there yet?
+- Metadata Enrichment of Multi-Disciplinary Digital Library: A Semantic-based Approach
+- Ontology-Based Query Expansion with Latently Related Named Entities for Semantic Text Search
+- Semantic Search and Recommendation Algorithm
+- Software engineering for artificial intelligence and machine learning software: A systematic literature review
+- Verif.ai: Towards an Open-Source Scientific Generative Question-Answering System with Referenced and Verifiable Answers
+
+Ask a research question (or type 'quit' to exit):

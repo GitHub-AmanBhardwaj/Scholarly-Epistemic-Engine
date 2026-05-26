@@ -1,0 +1,1000 @@
+(myenv) PS D:\New folder> python test.py
+C:\Users\DELL_\anaconda3\envs\myenv\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+Loading embedding model...
+Loading Reranker model (for v4)...
+Loading Spacy for MI calculation...
+Loading ChromaDB...
+Loading LLM (llama) ...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████| 4/4 [00:09<00:00,  2.41s/it]
+Device set to use cuda:0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+
+=== V1_BASIC | what are the effective and commonly used models in... ===
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.679 | Div=2.302 | Faith(MI)=0.293 | Faith(LLM)=0.478
+
+=== V2_REWRITE | what are the effective and commonly used models in... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "effective models in speech recognition field"
+
+Here is the step-by-step process to transform the user question into the optimized search statement:
+
+1.  **Identify the main topic**: The main topic of the user question is "speech recognition".
+2.  **Extract key concepts**: The key concepts in the user question are "effective models" and "speech recognition field".
+3.  **Remove stop words**: Stop words are common words like "what", "are", "the", etc. that
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.618 | Div=2.302 | Faith(MI)=0.121 | Faith(LLM)=1.0
+
+=== V3_REWRITE_MARKDOWN | what are the effective and commonly used models in... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "effective models in speech recognition field"
+
+Here is the step-by-step process to transform the user question into the optimized search statement:
+
+1.  **Identify the main topic**: The main topic of the user question is "speech recognition".
+2.  **Extract key concepts**: The key concepts in the user question are "effective models" and "speech recognition field".
+3.  **Remove stop words**: Stop words are common words like "what", "are", "the", etc. that
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.618 | Div=2.302 | Faith(MI)=0.14 | Faith(LLM)=0.375
+
+=== V4_RERANK_FUSE | what are the effective and commonly used models in... ===
+Step 1 (v4): Expanding query...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Expanded to 2 variants.
+Step 2 (v4): Reranking 38 chunks...
+Step 3 (v4): Adaptive fusion...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Fused down to 10 final chunks.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.675 | Div=2.302 | Faith(MI)=0.133 | Faith(LLM)=0.3939393939393939
+
+=== V1_BASIC | what are the main challenges faced in field of spe... ===
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.67 | Div=2.301 | Faith(MI)=0.371 | Faith(LLM)=0.84375
+
+=== V2_REWRITE | what are the main challenges faced in field of spe... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Speech recognition challenges, speech recognition difficulties, speech recognition limitations, speech recognition obstacles, speech recognition problems, speech recognition issues, speech recognition hurdles, speech recognition barriers, speech recognition complexities, speech recognition difficulties, speech recognition limitations, speech recognition obstacles, speech recognition problems, speech recognition issues, speech recognition hurdles, speech recognition barriers, speech recognition complexities"
+
+However, this is not the most efficient way to optimize the search statement. A more efficient way is to use a combination of keywords and phrases that are more
+Generating answer...
+You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.574 | Div=2.303 | Faith(MI)=0.208 | Faith(LLM)=0.727
+
+=== V3_REWRITE_MARKDOWN | what are the main challenges faced in field of spe... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Speech recognition challenges, speech recognition difficulties, speech recognition limitations, speech recognition obstacles, speech recognition problems, speech recognition issues, speech recognition hurdles, speech recognition barriers, speech recognition complexities, speech recognition difficulties, speech recognition limitations, speech recognition obstacles, speech recognition problems, speech recognition issues, speech recognition hurdles, speech recognition barriers, speech recognition complexities"
+
+However, this is not the most efficient way to optimize the search statement. A more efficient way is to use a combination of keywords and phrases that are more
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.574 | Div=2.303 | Faith(MI)=0.181 | Faith(LLM)=0.5
+
+=== V4_RERANK_FUSE | what are the main challenges faced in field of spe... ===
+Step 1 (v4): Expanding query...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Expanded to 2 variants.
+Step 2 (v4): Reranking 34 chunks...
+Step 3 (v4): Adaptive fusion...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Fused down to 10 final chunks.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.663 | Div=2.301 | Faith(MI)=0.338 | Faith(LLM)=1.0
+
+=== V1_BASIC | what are the future directions and research trends... ===
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.685 | Div=2.302 | Faith(MI)=0.131 | Faith(LLM)=0.0
+
+=== V2_REWRITE | what are the future directions and research trends... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Future directions and research trends in speech recognition technology"
+
+Here are the key transformations made to the user question:
+1. **Identify key concepts**: The key concepts in the user question are "future directions", "research trends", and "speech recognition".
+2. **Remove stopwords and irrelevant words**: The words "in field of" are stopwords that do not add much value to the search query. They can be removed to make the search query more concise.
+3. **Use more specific and technical
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.54 | Div=2.302 | Faith(MI)=0.148 | Faith(LLM)=0.63
+
+=== V3_REWRITE_MARKDOWN | what are the future directions and research trends... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Future directions and research trends in speech recognition technology"
+
+Here are the key transformations made to the user question:
+1. **Identify key concepts**: The key concepts in the user question are "future directions", "research trends", and "speech recognition".
+2. **Remove stopwords and irrelevant words**: The words "in field of" are stopwords that do not add much value to the search query. They can be removed to make the search query more concise.
+3. **Use more specific and technical
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.54 | Div=2.302 | Faith(MI)=0.128 | Faith(LLM)=0.53
+
+=== V4_RERANK_FUSE | what are the future directions and research trends... ===
+Step 1 (v4): Expanding query...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Expanded to 2 variants.
+Step 2 (v4): Reranking 29 chunks...
+Step 3 (v4): Adaptive fusion...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Fused down to 10 final chunks.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.687 | Div=2.302 | Faith(MI)=0.141 | Faith(LLM)=0.4444444444444444
+
+=== V1_BASIC | how is hyperparameter tuning performed for models ... ===
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.726 | Div=2.302 | Faith(MI)=0.198 | Faith(LLM)=0.2
+
+=== V2_REWRITE | how is hyperparameter tuning performed for models ... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "hyperparameter tuning for speech recognition models"
+
+Here is the step-by-step process to transform the user question into the optimized search statement:
+
+1.  **Identify the main topic**: The main topic of the user question is "hyperparameter tuning" and its application in "speech recognition models".
+2.  **Remove unnecessary words**: Remove words that do not add significant meaning to the search statement, such as "how is" and "for models used in field of".
+3.  **Use
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.602 | Div=2.302 | Faith(MI)=0.246 | Faith(LLM)=1.0
+
+=== V3_REWRITE_MARKDOWN | how is hyperparameter tuning performed for models ... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "hyperparameter tuning for speech recognition models"
+
+Here is the step-by-step process to transform the user question into the optimized search statement:
+
+1.  **Identify the main topic**: The main topic of the user question is "hyperparameter tuning" and its application in "speech recognition models".
+2.  **Remove unnecessary words**: Remove words that do not add significant meaning to the search statement, such as "how is" and "for models used in field of".
+3.  **Use
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.602 | Div=2.302 | Faith(MI)=0.199 | Faith(LLM)=0.62
+
+=== V4_RERANK_FUSE | how is hyperparameter tuning performed for models ... ===
+Step 1 (v4): Expanding query...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Expanded to 2 variants.
+Step 2 (v4): Reranking 39 chunks...
+Step 3 (v4): Adaptive fusion...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Fused down to 10 final chunks.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.729 | Div=2.302 | Faith(MI)=0.224 | Faith(LLM)=0.85
+
+=== V1_BASIC | what are the commonly used tools and frameworks fo... ===
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.685 | Div=2.302 | Faith(MI)=0.167 | Faith(LLM)=0.52
+
+=== V2_REWRITE | what are the commonly used tools and frameworks fo... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Tools and frameworks used in speech recognition implementation"
+
+Here are the key transformations made:
+1.  **Identify the main entities**: The main entities in the user question are "tools", "frameworks", and "speech recognition".
+2.  **Extract the key concepts**: The key concepts are "implementation" and "field".
+3.  **Remove unnecessary words**: The words "commonly used" and "in the field of" are removed as they are not essential for the search.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.605 | Div=2.302 | Faith(MI)=0.205 | Faith(LLM)=0.8636
+
+=== V3_REWRITE_MARKDOWN | what are the commonly used tools and frameworks fo... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Tools and frameworks used in speech recognition implementation"
+
+Here are the key transformations made:
+1.  **Identify the main entities**: The main entities in the user question are "tools", "frameworks", and "speech recognition".
+2.  **Extract the key concepts**: The key concepts are "implementation" and "field".
+3.  **Remove unnecessary words**: The words "commonly used" and "in the field of" are removed as they are not essential for the search.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.605 | Div=2.302 | Faith(MI)=0.252 | Faith(LLM)=0.94
+
+=== V4_RERANK_FUSE | what are the commonly used tools and frameworks fo... ===
+Step 1 (v4): Expanding query...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Expanded to 2 variants.
+Step 2 (v4): Reranking 29 chunks...
+Step 3 (v4): Adaptive fusion...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Fused down to 10 final chunks.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.684 | Div=2.302 | Faith(MI)=0.142 | Faith(LLM)=0.7333333333333333
+
+=== V1_BASIC | what are the testing and validation techniques use... ===
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.64 | Div=2.302 | Faith(MI)=0.203 | Faith(LLM)=1.0
+
+=== V2_REWRITE | what are the testing and validation techniques use... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Testing and validation methods in speech recognition research"
+
+Here are the key transformations made:
+1.  **Simplification**: The original question is simplified to focus on the core concepts of interest, which are "testing and validation methods" in the context of "speech recognition research".
+2.  **Relevance to the field**: The statement is made more specific to the field of speech recognition, ensuring that the search results are relevant to this area of research.
+3.  **Use of technical terms
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.619 | Div=2.302 | Faith(MI)=0.322 | Faith(LLM)=0.0
+
+=== V3_REWRITE_MARKDOWN | what are the testing and validation techniques use... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Testing and validation methods in speech recognition research"
+
+Here are the key transformations made:
+1.  **Simplification**: The original question is simplified to focus on the core concepts of interest, which are "testing and validation methods" in the context of "speech recognition research".
+2.  **Relevance to the field**: The statement is made more specific to the field of speech recognition, ensuring that the search results are relevant to this area of research.
+3.  **Use of technical terms
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.619 | Div=2.302 | Faith(MI)=0.225 | Faith(LLM)=0.8571428571428571
+
+=== V4_RERANK_FUSE | what are the testing and validation techniques use... ===
+Step 1 (v4): Expanding query...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Expanded to 2 variants.
+Step 2 (v4): Reranking 40 chunks...
+Step 3 (v4): Adaptive fusion...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Fused down to 10 final chunks.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.624 | Div=2.302 | Faith(MI)=0.277 | Faith(LLM)=0.8
+
+=== V1_BASIC | what are the effective and commonly used models in... ===
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.658 | Div=2.301 | Faith(MI)=0.163 | Faith(LLM)=0.29411764705882354
+
+=== V2_REWRITE | what are the effective and commonly used models in... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "effective models in computer vision, commonly used models in computer vision, computer vision models, computer vision techniques, computer vision methods, computer vision algorithms, computer vision applications, computer vision research, computer vision papers, computer vision models for image classification, computer vision models for object detection, computer vision models for segmentation, computer vision models for tracking"
+
+The optimized search statement includes the following elements:
+- **Key concepts**: "effective models", "computer vision", "commonly used models"
+- **Related concepts
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.641 | Div=2.302 | Faith(MI)=0.113 | Faith(LLM)=0.0
+
+=== V3_REWRITE_MARKDOWN | what are the effective and commonly used models in... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "effective models in computer vision, commonly used models in computer vision, computer vision models, computer vision techniques, computer vision methods, computer vision algorithms, computer vision applications, computer vision research, computer vision papers, computer vision models for image classification, computer vision models for object detection, computer vision models for segmentation, computer vision models for tracking"
+
+The optimized search statement includes the following elements:
+- **Key concepts**: "effective models", "computer vision", "commonly used models"
+- **Related concepts
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.641 | Div=2.302 | Faith(MI)=0.122 | Faith(LLM)=0.034482758620689655
+
+=== V4_RERANK_FUSE | what are the effective and commonly used models in... ===
+Step 1 (v4): Expanding query...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Expanded to 2 variants.
+Step 2 (v4): Reranking 36 chunks...
+Step 3 (v4): Adaptive fusion...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Fused down to 10 final chunks.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.644 | Div=2.302 | Faith(MI)=0.123 | Faith(LLM)=0.6666666666666666
+
+=== V1_BASIC | what are the main challenges faced in field of com... ===
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.598 | Div=2.301 | Faith(MI)=0.524 | Faith(LLM)=0.9523809523809523
+
+=== V2_REWRITE | what are the main challenges faced in field of com... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Computer vision challenges, main obstacles, difficulties, and limitations in the field of computer vision research"
+
+Here is the step-by-step process to transform the user question into an optimized search statement:
+
+1.  **Identify the main topic**: The main topic of the user question is "Computer Vision".
+2.  **Determine the type of information sought**: The user is looking for information about the "challenges" faced in the field of computer vision.
+3.  **Use relevant keywords**:
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.525 | Div=2.302 | Faith(MI)=0.25 | Faith(LLM)=0.8
+
+=== V3_REWRITE_MARKDOWN | what are the main challenges faced in field of com... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Computer vision challenges, main obstacles, difficulties, and limitations in the field of computer vision research"
+
+Here is the step-by-step process to transform the user question into an optimized search statement:
+
+1.  **Identify the main topic**: The main topic of the user question is "Computer Vision".
+2.  **Determine the type of information sought**: The user is looking for information about the "challenges" faced in the field of computer vision.
+3.  **Use relevant keywords**:
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.525 | Div=2.302 | Faith(MI)=0.088 | Faith(LLM)=0.0
+
+=== V4_RERANK_FUSE | what are the main challenges faced in field of com... ===
+Step 1 (v4): Expanding query...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Expanded to 2 variants.
+Step 2 (v4): Reranking 35 chunks...
+Step 3 (v4): Adaptive fusion...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Fused down to 10 final chunks.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.591 | Div=2.301 | Faith(MI)=0.133 | Faith(LLM)=0.8333
+
+=== V1_BASIC | what are the future directions and research trends... ===
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.636 | Div=2.302 | Faith(MI)=0.29 | Faith(LLM)=0.2222222222222222
+
+=== V2_REWRITE | what are the future directions and research trends... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Future directions and research trends in computer vision"
+
+Here are the key transformations made to the user question to optimize it for semantic search:
+
+1.  **Removed unnecessary words**: The original question contained unnecessary words like "what are the", which do not add any value to the search query. Removing these words helps to focus the search on the core topic.
+2.  **Identified key concepts**: The question revolves around "future directions" and "research trends" in "computer vision". These are
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.545 | Div=2.302 | Faith(MI)=0.154 | Faith(LLM)=0.6
+
+=== V3_REWRITE_MARKDOWN | what are the future directions and research trends... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Future directions and research trends in computer vision"
+
+Here are the key transformations made to the user question to optimize it for semantic search:
+
+1.  **Removed unnecessary words**: The original question contained unnecessary words like "what are the", which do not add any value to the search query. Removing these words helps to focus the search on the core topic.
+2.  **Identified key concepts**: The question revolves around "future directions" and "research trends" in "computer vision". These are
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.545 | Div=2.302 | Faith(MI)=0.105 | Faith(LLM)=0.22
+
+=== V4_RERANK_FUSE | what are the future directions and research trends... ===
+Step 1 (v4): Expanding query...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Expanded to 2 variants.
+Step 2 (v4): Reranking 35 chunks...
+Step 3 (v4): Adaptive fusion...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Fused down to 10 final chunks.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.636 | Div=2.302 | Faith(MI)=0.153 | Faith(LLM)=0.7272727272727273
+
+=== V1_BASIC | how is hyperparameter tuning performed for models ... ===
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.735 | Div=2.302 | Faith(MI)=0.274 | Faith(LLM)=0.5405405405405406
+
+=== V2_REWRITE | how is hyperparameter tuning performed for models ... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "hyperparameter tuning techniques for computer vision models"
+
+Here is the step-by-step process to transform the user question into the optimized search statement:
+
+1.  **Identify the main entities**: The main entities in the user question are "hyperparameter tuning", "models", and "computer vision".
+2.  **Determine the relationships**: The relationships between the entities are "techniques for" and "used in".
+3.  **Remove unnecessary words**: Remove words like "how", "is
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.576 | Div=2.302 | Faith(MI)=0.108 | Faith(LLM)=0.625
+
+=== V3_REWRITE_MARKDOWN | how is hyperparameter tuning performed for models ... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "hyperparameter tuning techniques for computer vision models"
+
+Here is the step-by-step process to transform the user question into the optimized search statement:
+
+1.  **Identify the main entities**: The main entities in the user question are "hyperparameter tuning", "models", and "computer vision".
+2.  **Determine the relationships**: The relationships between the entities are "techniques for" and "used in".
+3.  **Remove unnecessary words**: Remove words like "how", "is
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.576 | Div=2.302 | Faith(MI)=0.121 | Faith(LLM)=0.42
+
+=== V4_RERANK_FUSE | how is hyperparameter tuning performed for models ... ===
+Step 1 (v4): Expanding query...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Expanded to 2 variants.
+Step 2 (v4): Reranking 38 chunks...
+Step 3 (v4): Adaptive fusion...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Fused down to 10 final chunks.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.76 | Div=2.3 | Faith(MI)=0.179 | Faith(LLM)=0.8
+
+=== V1_BASIC | what are the commonly used tools and frameworks fo... ===
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.605 | Div=2.302 | Faith(MI)=0.242 | Faith(LLM)=0.9047
+
+=== V2_REWRITE | what are the commonly used tools and frameworks fo... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Tools and frameworks commonly used in computer vision implementation"
+
+Here are the steps to transform the user question into the optimized search statement:
+
+1.  **Identify the main topic**: The main topic of the user question is "computer vision implementation".
+2.  **Extract key concepts**: The key concepts in the user question are "tools", "frameworks", and "implementation".
+3.  **Remove unnecessary words**: Remove words like "what", "are", "the", "in", "
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.582 | Div=2.302 | Faith(MI)=0.091 | Faith(LLM)=0.4444444444444444
+
+=== V3_REWRITE_MARKDOWN | what are the commonly used tools and frameworks fo... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Tools and frameworks commonly used in computer vision implementation"
+
+Here are the steps to transform the user question into the optimized search statement:
+
+1.  **Identify the main topic**: The main topic of the user question is "computer vision implementation".
+2.  **Extract key concepts**: The key concepts in the user question are "tools", "frameworks", and "implementation".
+3.  **Remove unnecessary words**: Remove words like "what", "are", "the", "in", "
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.582 | Div=2.302 | Faith(MI)=0.041 | Faith(LLM)=0.2857
+
+=== V4_RERANK_FUSE | what are the commonly used tools and frameworks fo... ===
+Step 1 (v4): Expanding query...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Expanded to 2 variants.
+Step 2 (v4): Reranking 37 chunks...
+Step 3 (v4): Adaptive fusion...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Fused down to 10 final chunks.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.599 | Div=2.302 | Faith(MI)=0.548 | Faith(LLM)=0.8823529411764706
+
+=== V1_BASIC | what are the testing and validation techniques use... ===
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.618 | Div=2.302 | Faith(MI)=0.241 | Faith(LLM)=0.5
+
+=== V2_REWRITE | what are the testing and validation techniques use... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Testing and validation techniques in computer vision research"
+
+Here are the steps to transform the user question into the optimized search statement:
+
+1.  **Identify the main entities**: The main entities in the user question are "testing and validation techniques" and "computer vision".
+2.  **Extract relevant keywords**: The relevant keywords are "testing", "validation", "techniques", and "computer vision".
+3.  **Formulate a descriptive statement**: Combine the extracted keywords into a descriptive statement that
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.586 | Div=2.302 | Faith(MI)=0.109 | Faith(LLM)=0.3684
+
+=== V3_REWRITE_MARKDOWN | what are the testing and validation techniques use... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Testing and validation techniques in computer vision research"
+
+Here are the steps to transform the user question into the optimized search statement:
+
+1.  **Identify the main entities**: The main entities in the user question are "testing and validation techniques" and "computer vision".
+2.  **Extract relevant keywords**: The relevant keywords are "testing", "validation", "techniques", and "computer vision".
+3.  **Formulate a descriptive statement**: Combine the extracted keywords into a descriptive statement that
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.586 | Div=2.302 | Faith(MI)=0.05 | Faith(LLM)=0.0
+
+=== V4_RERANK_FUSE | what are the testing and validation techniques use... ===
+Step 1 (v4): Expanding query...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Expanded to 2 variants.
+Step 2 (v4): Reranking 37 chunks...
+Step 3 (v4): Adaptive fusion...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Fused down to 10 final chunks.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.578 | Div=2.301 | Faith(MI)=0.16 | Faith(LLM)=0.9333333333333333
+
+=== V1_BASIC | what are the effective and commonly used models in... ===
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.688 | Div=2.302 | Faith(MI)=0.22 | Faith(LLM)=0.5
+
+=== V2_REWRITE | what are the effective and commonly used models in... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "effective models in natural language processing"
+
+The transformation involves the following steps:
+
+1.  **Identify the main topic**: The main topic of the user question is "effective models in natural language processing".
+2.  **Remove unnecessary words**: Remove words that do not add significant value to the search query, such as "what", "are", "commonly used".
+3.  **Use relevant keywords**: Use relevant keywords that are specific to the field of natural language processing, such as "
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.66 | Div=2.302 | Faith(MI)=0.163 | Faith(LLM)=0.75
+
+=== V3_REWRITE_MARKDOWN | what are the effective and commonly used models in... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "effective models in natural language processing"
+
+The transformation involves the following steps:
+
+1.  **Identify the main topic**: The main topic of the user question is "effective models in natural language processing".
+2.  **Remove unnecessary words**: Remove words that do not add significant value to the search query, such as "what", "are", "commonly used".
+3.  **Use relevant keywords**: Use relevant keywords that are specific to the field of natural language processing, such as "
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.66 | Div=2.302 | Faith(MI)=0.219 | Faith(LLM)=0.3846
+
+=== V4_RERANK_FUSE | what are the effective and commonly used models in... ===
+Step 1 (v4): Expanding query...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Expanded to 2 variants.
+Step 2 (v4): Reranking 34 chunks...
+Step 3 (v4): Adaptive fusion...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Fused down to 10 final chunks.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.697 | Div=2.301 | Faith(MI)=0.179 | Faith(LLM)=1.0
+
+=== V1_BASIC | what are the main challenges faced in field of nat... ===
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.646 | Div=2.302 | Faith(MI)=0.319 | Faith(LLM)=0.85
+
+=== V2_REWRITE | what are the main challenges faced in field of nat... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "main challenges in natural language processing"
+
+Here is the step-by-step process to transform the user question into an optimized search statement:
+
+1.  **Identify the main topic**: The main topic of the user question is "natural language processing".
+2.  **Extract the key phrase**: The key phrase in the user question is "main challenges".
+3.  **Remove unnecessary words**: Remove the words "in field of" as they are not essential to the search query.
+4.  **
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.615 | Div=2.303 | Faith(MI)=0.157 | Faith(LLM)=0.6
+
+=== V3_REWRITE_MARKDOWN | what are the main challenges faced in field of nat... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "main challenges in natural language processing"
+
+Here is the step-by-step process to transform the user question into an optimized search statement:
+
+1.  **Identify the main topic**: The main topic of the user question is "natural language processing".
+2.  **Extract the key phrase**: The key phrase in the user question is "main challenges".
+3.  **Remove unnecessary words**: Remove the words "in field of" as they are not essential to the search query.
+4.  **
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.615 | Div=2.303 | Faith(MI)=0.073 | Faith(LLM)=0.8888888888888888
+
+=== V4_RERANK_FUSE | what are the main challenges faced in field of nat... ===
+Step 1 (v4): Expanding query...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Expanded to 2 variants.
+Step 2 (v4): Reranking 34 chunks...
+Step 3 (v4): Adaptive fusion...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Fused down to 10 final chunks.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.662 | Div=2.3 | Faith(MI)=0.072 | Faith(LLM)=0.5
+
+=== V1_BASIC | what are the future directions and research trends... ===
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.711 | Div=2.302 | Faith(MI)=0.271 | Faith(LLM)=0.8
+
+=== V2_REWRITE | what are the future directions and research trends... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Future directions and research trends in natural language processing"
+
+Here are the key transformations made to the user question to optimize it for semantic search:
+
+1.  **Removed unnecessary words**: The original question contained unnecessary words like "what are the", which do not add any value to the search query. Removing these words helps to focus the search on the core topic.
+2.  **Identified key concepts**: The question revolves around "future directions" and "research trends" in "natural language processing".
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.587 | Div=2.302 | Faith(MI)=0.298 | Faith(LLM)=0.875
+
+=== V3_REWRITE_MARKDOWN | what are the future directions and research trends... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Future directions and research trends in natural language processing"
+
+Here are the key transformations made to the user question to optimize it for semantic search:
+
+1.  **Removed unnecessary words**: The original question contained unnecessary words like "what are the", which do not add any value to the search query. Removing these words helps to focus the search on the core topic.
+2.  **Identified key concepts**: The question revolves around "future directions" and "research trends" in "natural language processing".
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.587 | Div=2.302 | Faith(MI)=0.25 | Faith(LLM)=0.3432835820895522
+
+=== V4_RERANK_FUSE | what are the future directions and research trends... ===
+Step 1 (v4): Expanding query...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Expanded to 2 variants.
+Step 2 (v4): Reranking 32 chunks...
+Step 3 (v4): Adaptive fusion...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Fused down to 10 final chunks.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.69 | Div=2.302 | Faith(MI)=0.179 | Faith(LLM)=0.3333
+
+=== V1_BASIC | how is hyperparameter tuning performed for models ... ===
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.747 | Div=2.302 | Faith(MI)=0.346 | Faith(LLM)=0.7272727272727273
+
+=== V2_REWRITE | how is hyperparameter tuning performed for models ... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "hyperparameter tuning techniques for natural language processing models"
+
+Here is the step-by-step process to transform the user question into the optimized search statement:
+
+1.  **Identify the main topic**: The main topic of the user question is "hyperparameter tuning" and its application in "natural language processing".
+2.  **Extract key terms**: The key terms in the user question are "hyperparameter tuning", "models", and "natural language processing".
+3.  **Remove unnecessary words**: Remove
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.652 | Div=2.302 | Faith(MI)=0.155 | Faith(LLM)=0.8
+
+=== V3_REWRITE_MARKDOWN | how is hyperparameter tuning performed for models ... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "hyperparameter tuning techniques for natural language processing models"
+
+Here is the step-by-step process to transform the user question into the optimized search statement:
+
+1.  **Identify the main topic**: The main topic of the user question is "hyperparameter tuning" and its application in "natural language processing".
+2.  **Extract key terms**: The key terms in the user question are "hyperparameter tuning", "models", and "natural language processing".
+3.  **Remove unnecessary words**: Remove
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.652 | Div=2.302 | Faith(MI)=0.191 | Faith(LLM)=0.6666666666666666
+
+=== V4_RERANK_FUSE | how is hyperparameter tuning performed for models ... ===
+Step 1 (v4): Expanding query...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Expanded to 2 variants.
+Step 2 (v4): Reranking 36 chunks...
+Step 3 (v4): Adaptive fusion...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Fused down to 10 final chunks.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.75 | Div=2.301 | Faith(MI)=0.363 | Faith(LLM)=0.84
+
+=== V1_BASIC | what are the commonly used tools and frameworks fo... ===
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.689 | Div=2.302 | Faith(MI)=0.159 | Faith(LLM)=0.44
+
+=== V2_REWRITE | what are the commonly used tools and frameworks fo... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Tools and frameworks used in natural language processing implementation"
+
+Here are the key transformations made:
+- "what are" -> removed, as it is a question word and does not add any semantic value
+- "commonly used" -> removed, as it is a vague term and can be inferred from the context of the question
+- "field of" -> removed, as it is a redundant phrase and can be implied by the context of "natural language processing"
+- "implementation" -> kept,
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.546 | Div=2.303 | Faith(MI)=0.622 | Faith(LLM)=0.75
+
+=== V3_REWRITE_MARKDOWN | what are the commonly used tools and frameworks fo... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Tools and frameworks used in natural language processing implementation"
+
+Here are the key transformations made:
+- "what are" -> removed, as it is a question word and does not add any semantic value
+- "commonly used" -> removed, as it is a vague term and can be inferred from the context of the question
+- "field of" -> removed, as it is a redundant phrase and can be implied by the context of "natural language processing"
+- "implementation" -> kept,
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.546 | Div=2.303 | Faith(MI)=0.26 | Faith(LLM)=0.72
+
+=== V4_RERANK_FUSE | what are the commonly used tools and frameworks fo... ===
+Step 1 (v4): Expanding query...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Expanded to 2 variants.
+Step 2 (v4): Reranking 36 chunks...
+Step 3 (v4): Adaptive fusion...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Fused down to 10 final chunks.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.693 | Div=2.302 | Faith(MI)=0.137 | Faith(LLM)=0.6666666666666666
+
+=== V1_BASIC | what are the testing and validation techniques use... ===
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.672 | Div=2.302 | Faith(MI)=0.305 | Faith(LLM)=0.267
+
+=== V2_REWRITE | what are the testing and validation techniques use... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Testing and validation techniques in natural language processing"
+
+Here are the steps to transform the user question into the optimized search statement:
+
+1.  **Identify the main topic**: The main topic of the user question is "natural language processing".
+2.  **Extract the key concepts**: The key concepts in the user question are "testing", "validation", and "techniques".
+3.  **Remove unnecessary words**: Remove words like "what", "are", "used", "in" that
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.65 | Div=2.302 | Faith(MI)=0.206 | Faith(LLM)=0.67857
+
+=== V3_REWRITE_MARKDOWN | what are the testing and validation techniques use... ===
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Rewritten Query: "Testing and validation techniques in natural language processing"
+
+Here are the steps to transform the user question into the optimized search statement:
+
+1.  **Identify the main topic**: The main topic of the user question is "natural language processing".
+2.  **Extract the key concepts**: The key concepts in the user question are "testing", "validation", and "techniques".
+3.  **Remove unnecessary words**: Remove words like "what", "are", "used", "in" that
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.65 | Div=2.302 | Faith(MI)=0.115 | Faith(LLM)=0.9166666666666666
+
+=== V4_RERANK_FUSE | what are the testing and validation techniques use... ===
+Step 1 (v4): Expanding query...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Expanded to 2 variants.
+Step 2 (v4): Reranking 37 chunks...
+Step 3 (v4): Adaptive fusion...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Fused down to 10 final chunks.
+Generating answer...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+  - Calculating LLM Faithfulness...
+Rel=0.67 | Div=2.302 | Faith(MI)=0.206 | Faith(LLM)=0.78
+
+================================================================================
+                                                query             version  Relevance_Mean_Sim  Diversity_H  Faithfulness_MI  Faithfulness_LLM
+what are the effective and commonly used models in...            v1_basic               0.679        2.302            0.293          0.478000
+what are the effective and commonly used models in...          v2_rewrite               0.618        2.302            0.121          1.000000
+what are the effective and commonly used models in... v3_rewrite_markdown               0.618        2.302            0.140          0.375000
+what are the effective and commonly used models in...      v4_rerank_fuse               0.675        2.302            0.133          0.393939
+what are the main challenges faced in field of spe...            v1_basic               0.670        2.301            0.371          0.843750
+what are the main challenges faced in field of spe...          v2_rewrite               0.574        2.303            0.208          0.727000
+what are the main challenges faced in field of spe... v3_rewrite_markdown               0.574        2.303            0.181          0.500000
+what are the main challenges faced in field of spe...      v4_rerank_fuse               0.663        2.301            0.338          1.000000
+what are the future directions and research trends...            v1_basic               0.685        2.302            0.131          0.000000
+what are the future directions and research trends...          v2_rewrite               0.540        2.302            0.148          0.630000
+what are the future directions and research trends... v3_rewrite_markdown               0.540        2.302            0.128          0.530000
+what are the future directions and research trends...      v4_rerank_fuse               0.687        2.302            0.141          0.444444
+how is hyperparameter tuning performed for models ...            v1_basic               0.726        2.302            0.198          0.200000
+how is hyperparameter tuning performed for models ...          v2_rewrite               0.602        2.302            0.246          1.000000
+how is hyperparameter tuning performed for models ... v3_rewrite_markdown               0.602        2.302            0.199          0.620000
+how is hyperparameter tuning performed for models ...      v4_rerank_fuse               0.729        2.302            0.224          0.850000
+what are the commonly used tools and frameworks fo...            v1_basic               0.685        2.302            0.167          0.520000
+what are the commonly used tools and frameworks fo...          v2_rewrite               0.605        2.302            0.205          0.863600
+what are the commonly used tools and frameworks fo... v3_rewrite_markdown               0.605        2.302            0.252          0.940000
+what are the commonly used tools and frameworks fo...      v4_rerank_fuse               0.684        2.302            0.142          0.733333
+what are the testing and validation techniques use...            v1_basic               0.640        2.302            0.203          1.000000
+what are the testing and validation techniques use...          v2_rewrite               0.619        2.302            0.322          0.000000
+what are the testing and validation techniques use... v3_rewrite_markdown               0.619        2.302            0.225          0.857143
+what are the testing and validation techniques use...      v4_rerank_fuse               0.624        2.302            0.277          0.800000
+what are the effective and commonly used models in...            v1_basic               0.658        2.301            0.163          0.294118
+what are the effective and commonly used models in...          v2_rewrite               0.641        2.302            0.113          0.000000
+what are the effective and commonly used models in... v3_rewrite_markdown               0.641        2.302            0.122          0.034483
+what are the effective and commonly used models in...      v4_rerank_fuse               0.644        2.302            0.123          0.666667
+what are the main challenges faced in field of com...            v1_basic               0.598        2.301            0.524          0.952381
+what are the main challenges faced in field of com...          v2_rewrite               0.525        2.302            0.250          0.800000
+what are the main challenges faced in field of com... v3_rewrite_markdown               0.525        2.302            0.088          0.000000
+what are the main challenges faced in field of com...      v4_rerank_fuse               0.591        2.301            0.133          0.833300
+what are the future directions and research trends...            v1_basic               0.636        2.302            0.290          0.222222
+what are the future directions and research trends...          v2_rewrite               0.545        2.302            0.154          0.600000
+what are the future directions and research trends... v3_rewrite_markdown               0.545        2.302            0.105          0.220000
+what are the future directions and research trends...      v4_rerank_fuse               0.636        2.302            0.153          0.727273
+how is hyperparameter tuning performed for models ...            v1_basic               0.735        2.302            0.274          0.540541
+how is hyperparameter tuning performed for models ...          v2_rewrite               0.576        2.302            0.108          0.625000
+how is hyperparameter tuning performed for models ... v3_rewrite_markdown               0.576        2.302            0.121          0.420000
+how is hyperparameter tuning performed for models ...      v4_rerank_fuse               0.760        2.300            0.179          0.800000
+what are the commonly used tools and frameworks fo...            v1_basic               0.605        2.302            0.242          0.904700
+what are the commonly used tools and frameworks fo...          v2_rewrite               0.582        2.302            0.091          0.444444
+what are the commonly used tools and frameworks fo... v3_rewrite_markdown               0.582        2.302            0.041          0.285700
+what are the commonly used tools and frameworks fo...      v4_rerank_fuse               0.599        2.302            0.548          0.882353
+what are the testing and validation techniques use...            v1_basic               0.618        2.302            0.241          0.500000
+what are the testing and validation techniques use...          v2_rewrite               0.586        2.302            0.109          0.368400
+what are the testing and validation techniques use... v3_rewrite_markdown               0.586        2.302            0.050          0.000000
+what are the testing and validation techniques use...      v4_rerank_fuse               0.578        2.301            0.160          0.933333
+what are the effective and commonly used models in...            v1_basic               0.688        2.302            0.220          0.500000
+what are the effective and commonly used models in...          v2_rewrite               0.660        2.302            0.163          0.750000
+what are the effective and commonly used models in... v3_rewrite_markdown               0.660        2.302            0.219          0.384600
+what are the effective and commonly used models in...      v4_rerank_fuse               0.697        2.301            0.179          1.000000
+what are the main challenges faced in field of nat...            v1_basic               0.646        2.302            0.319          0.850000
+what are the main challenges faced in field of nat...          v2_rewrite               0.615        2.303            0.157          0.600000
+what are the main challenges faced in field of nat... v3_rewrite_markdown               0.615        2.303            0.073          0.888889
+what are the main challenges faced in field of nat...      v4_rerank_fuse               0.662        2.300            0.072          0.500000
+what are the future directions and research trends...            v1_basic               0.711        2.302            0.271          0.800000
+what are the future directions and research trends...          v2_rewrite               0.587        2.302            0.298          0.875000
+what are the future directions and research trends... v3_rewrite_markdown               0.587        2.302            0.250          0.343284
+what are the future directions and research trends...      v4_rerank_fuse               0.690        2.302            0.179          0.333300
+how is hyperparameter tuning performed for models ...            v1_basic               0.747        2.302            0.346          0.727273
+how is hyperparameter tuning performed for models ...          v2_rewrite               0.652        2.302            0.155          0.800000
+how is hyperparameter tuning performed for models ... v3_rewrite_markdown               0.652        2.302            0.191          0.666667
+how is hyperparameter tuning performed for models ...      v4_rerank_fuse               0.750        2.301            0.363          0.840000
+what are the commonly used tools and frameworks fo...            v1_basic               0.689        2.302            0.159          0.440000
+what are the commonly used tools and frameworks fo...          v2_rewrite               0.546        2.303            0.622          0.750000
+what are the commonly used tools and frameworks fo... v3_rewrite_markdown               0.546        2.303            0.260          0.720000
+what are the commonly used tools and frameworks fo...      v4_rerank_fuse               0.693        2.302            0.137          0.666667
+what are the testing and validation techniques use...            v1_basic               0.672        2.302            0.305          0.267000
+what are the testing and validation techniques use...          v2_rewrite               0.650        2.302            0.206          0.678570
+what are the testing and validation techniques use... v3_rewrite_markdown               0.650        2.302            0.115          0.916667
+what are the testing and validation techniques use...      v4_rerank_fuse               0.670        2.302            0.206          0.780000
+
+LATEX TABLE:
+\begin{table}
+\caption{RAG Evaluation: Relevance, Diversity, and Faithfulness (MI vs LLM)}
+\label{tab:rag_tradeoffs_final_v3}
+\begin{tabular}{llrrrr}
+\toprule
+query & version & Relevance_Mean_Sim & Diversity_H & Faithfulness_MI & Faithfulness_LLM \\
+\midrule
+what are the effective and commonly used models in... & v1_basic & 0.679 & 2.302 & 0.293 & 0.478 \\
+what are the effective and commonly used models in... & v2_rewrite & 0.618 & 2.302 & 0.121 & 1.000 \\
+what are the effective and commonly used models in... & v3_rewrite_markdown & 0.618 & 2.302 & 0.140 & 0.375 \\
+what are the effective and commonly used models in... & v4_rerank_fuse & 0.675 & 2.302 & 0.133 & 0.394 \\
+what are the main challenges faced in field of spe... & v1_basic & 0.670 & 2.301 & 0.371 & 0.844 \\
+what are the main challenges faced in field of spe... & v2_rewrite & 0.574 & 2.303 & 0.208 & 0.727 \\
+what are the main challenges faced in field of spe... & v3_rewrite_markdown & 0.574 & 2.303 & 0.181 & 0.500 \\
+what are the main challenges faced in field of spe... & v4_rerank_fuse & 0.663 & 2.301 & 0.338 & 1.000 \\
+what are the future directions and research trends... & v1_basic & 0.685 & 2.302 & 0.131 & 0.000 \\
+what are the future directions and research trends... & v2_rewrite & 0.540 & 2.302 & 0.148 & 0.630 \\
+what are the future directions and research trends... & v3_rewrite_markdown & 0.540 & 2.302 & 0.128 & 0.530 \\
+what are the future directions and research trends... & v4_rerank_fuse & 0.687 & 2.302 & 0.141 & 0.444 \\
+how is hyperparameter tuning performed for models ... & v1_basic & 0.726 & 2.302 & 0.198 & 0.200 \\
+how is hyperparameter tuning performed for models ... & v2_rewrite & 0.602 & 2.302 & 0.246 & 1.000 \\
+how is hyperparameter tuning performed for models ... & v3_rewrite_markdown & 0.602 & 2.302 & 0.199 & 0.620 \\
+how is hyperparameter tuning performed for models ... & v4_rerank_fuse & 0.729 & 2.302 & 0.224 & 0.850 \\
+what are the commonly used tools and frameworks fo... & v1_basic & 0.685 & 2.302 & 0.167 & 0.520 \\
+what are the commonly used tools and frameworks fo... & v2_rewrite & 0.605 & 2.302 & 0.205 & 0.864 \\
+what are the commonly used tools and frameworks fo... & v3_rewrite_markdown & 0.605 & 2.302 & 0.252 & 0.940 \\
+what are the commonly used tools and frameworks fo... & v4_rerank_fuse & 0.684 & 2.302 & 0.142 & 0.733 \\
+what are the testing and validation techniques use... & v1_basic & 0.640 & 2.302 & 0.203 & 1.000 \\
+what are the testing and validation techniques use... & v2_rewrite & 0.619 & 2.302 & 0.322 & 0.000 \\
+what are the testing and validation techniques use... & v3_rewrite_markdown & 0.619 & 2.302 & 0.225 & 0.857 \\
+what are the testing and validation techniques use... & v4_rerank_fuse & 0.624 & 2.302 & 0.277 & 0.800 \\
+what are the effective and commonly used models in... & v1_basic & 0.658 & 2.301 & 0.163 & 0.294 \\
+what are the effective and commonly used models in... & v2_rewrite & 0.641 & 2.302 & 0.113 & 0.000 \\
+what are the effective and commonly used models in... & v3_rewrite_markdown & 0.641 & 2.302 & 0.122 & 0.034 \\
+what are the effective and commonly used models in... & v4_rerank_fuse & 0.644 & 2.302 & 0.123 & 0.667 \\
+what are the main challenges faced in field of com... & v1_basic & 0.598 & 2.301 & 0.524 & 0.952 \\
+what are the main challenges faced in field of com... & v2_rewrite & 0.525 & 2.302 & 0.250 & 0.800 \\
+what are the main challenges faced in field of com... & v3_rewrite_markdown & 0.525 & 2.302 & 0.088 & 0.000 \\
+what are the main challenges faced in field of com... & v4_rerank_fuse & 0.591 & 2.301 & 0.133 & 0.833 \\
+what are the future directions and research trends... & v1_basic & 0.636 & 2.302 & 0.290 & 0.222 \\
+what are the future directions and research trends... & v2_rewrite & 0.545 & 2.302 & 0.154 & 0.600 \\
+what are the future directions and research trends... & v3_rewrite_markdown & 0.545 & 2.302 & 0.105 & 0.220 \\
+what are the future directions and research trends... & v4_rerank_fuse & 0.636 & 2.302 & 0.153 & 0.727 \\
+how is hyperparameter tuning performed for models ... & v1_basic & 0.735 & 2.302 & 0.274 & 0.541 \\
+how is hyperparameter tuning performed for models ... & v2_rewrite & 0.576 & 2.302 & 0.108 & 0.625 \\
+how is hyperparameter tuning performed for models ... & v3_rewrite_markdown & 0.576 & 2.302 & 0.121 & 0.420 \\
+how is hyperparameter tuning performed for models ... & v4_rerank_fuse & 0.760 & 2.300 & 0.179 & 0.800 \\
+what are the commonly used tools and frameworks fo... & v1_basic & 0.605 & 2.302 & 0.242 & 0.905 \\
+what are the commonly used tools and frameworks fo... & v2_rewrite & 0.582 & 2.302 & 0.091 & 0.444 \\
+what are the commonly used tools and frameworks fo... & v3_rewrite_markdown & 0.582 & 2.302 & 0.041 & 0.286 \\
+what are the commonly used tools and frameworks fo... & v4_rerank_fuse & 0.599 & 2.302 & 0.548 & 0.882 \\
+what are the testing and validation techniques use... & v1_basic & 0.618 & 2.302 & 0.241 & 0.500 \\
+what are the testing and validation techniques use... & v2_rewrite & 0.586 & 2.302 & 0.109 & 0.368 \\
+what are the testing and validation techniques use... & v3_rewrite_markdown & 0.586 & 2.302 & 0.050 & 0.000 \\
+what are the testing and validation techniques use... & v4_rerank_fuse & 0.578 & 2.301 & 0.160 & 0.933 \\
+what are the effective and commonly used models in... & v1_basic & 0.688 & 2.302 & 0.220 & 0.500 \\
+what are the effective and commonly used models in... & v2_rewrite & 0.660 & 2.302 & 0.163 & 0.750 \\
+what are the effective and commonly used models in... & v3_rewrite_markdown & 0.660 & 2.302 & 0.219 & 0.385 \\
+what are the effective and commonly used models in... & v4_rerank_fuse & 0.697 & 2.301 & 0.179 & 1.000 \\
+what are the main challenges faced in field of nat... & v1_basic & 0.646 & 2.302 & 0.319 & 0.850 \\
+what are the main challenges faced in field of nat... & v2_rewrite & 0.615 & 2.303 & 0.157 & 0.600 \\
+what are the main challenges faced in field of nat... & v3_rewrite_markdown & 0.615 & 2.303 & 0.073 & 0.889 \\
+what are the main challenges faced in field of nat... & v4_rerank_fuse & 0.662 & 2.300 & 0.072 & 0.500 \\
+what are the future directions and research trends... & v1_basic & 0.711 & 2.302 & 0.271 & 0.800 \\
+what are the future directions and research trends... & v2_rewrite & 0.587 & 2.302 & 0.298 & 0.875 \\
+what are the future directions and research trends... & v3_rewrite_markdown & 0.587 & 2.302 & 0.250 & 0.343 \\
+what are the future directions and research trends... & v4_rerank_fuse & 0.690 & 2.302 & 0.179 & 0.333 \\
+how is hyperparameter tuning performed for models ... & v1_basic & 0.747 & 2.302 & 0.346 & 0.727 \\
+how is hyperparameter tuning performed for models ... & v2_rewrite & 0.652 & 2.302 & 0.155 & 0.800 \\
+how is hyperparameter tuning performed for models ... & v3_rewrite_markdown & 0.652 & 2.302 & 0.191 & 0.667 \\
+how is hyperparameter tuning performed for models ... & v4_rerank_fuse & 0.750 & 2.301 & 0.363 & 0.840 \\
+what are the commonly used tools and frameworks fo... & v1_basic & 0.689 & 2.302 & 0.159 & 0.440 \\
+what are the commonly used tools and frameworks fo... & v2_rewrite & 0.546 & 2.303 & 0.622 & 0.750 \\
+what are the commonly used tools and frameworks fo... & v3_rewrite_markdown & 0.546 & 2.303 & 0.260 & 0.720 \\
+what are the commonly used tools and frameworks fo... & v4_rerank_fuse & 0.693 & 2.302 & 0.137 & 0.667 \\
+what are the testing and validation techniques use... & v1_basic & 0.672 & 2.302 & 0.305 & 0.267 \\
+what are the testing and validation techniques use... & v2_rewrite & 0.650 & 2.302 & 0.206 & 0.679 \\
+what are the testing and validation techniques use... & v3_rewrite_markdown & 0.650 & 2.302 & 0.115 & 0.917 \\
+what are the testing and validation techniques use... & v4_rerank_fuse & 0.670 & 2.302 & 0.206 & 0.780 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+(myenv) PS D:\New folder>

@@ -1,0 +1,1880 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Hp\Downloads\minor> python fetch.py
+Starting to fetch all arXiv metadata from 1993 to 2024.
+Data will be saved incrementally to arxiv_ai_metadata.csv
+
+--- Fetching papers for 1993-01 ---
+No papers found for this period.
+
+--- Fetching papers for 1993-02 ---
+No papers found for this period.
+
+--- Fetching papers for 1993-03 ---
+No papers found for this period.
+
+--- Fetching papers for 1993-04 ---
+No papers found for this period.
+
+--- Fetching papers for 1993-05 ---
+No papers found for this period.
+
+--- Fetching papers for 1993-06 ---
+No papers found for this period.
+
+--- Fetching papers for 1993-07 ---
+No papers found for this period.
+
+--- Fetching papers for 1993-08 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1993-08.
+
+--- Fetching papers for 1993-09 ---
+Found 1 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+Saved 1 papers for 1993-09.
+
+--- Fetching papers for 1993-10 ---
+No papers found for this period.
+
+--- Fetching papers for 1993-11 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1993-11.
+
+--- Fetching papers for 1993-12 ---
+Found 1 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+Saved 1 papers for 1993-12.
+
+--- Fetching papers for 1994-01 ---
+Found 1 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+Saved 1 papers for 1994-01.
+
+--- Fetching papers for 1994-02 ---
+Found 3 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 3/3 [00:00<?, ?it/s]
+Saved 3 papers for 1994-02.
+
+--- Fetching papers for 1994-03 ---
+Found 1 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+Saved 1 papers for 1994-03.
+
+--- Fetching papers for 1994-04 ---
+No papers found for this period.
+
+--- Fetching papers for 1994-05 ---
+No papers found for this period.
+
+--- Fetching papers for 1994-06 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1994-06.
+
+--- Fetching papers for 1994-07 ---
+No papers found for this period.
+
+--- Fetching papers for 1994-08 ---
+Found 3 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 3/3 [00:00<?, ?it/s]
+Saved 3 papers for 1994-08.
+
+--- Fetching papers for 1994-09 ---
+Found 1 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+Saved 1 papers for 1994-09.
+
+--- Fetching papers for 1994-10 ---
+No papers found for this period.
+
+--- Fetching papers for 1994-11 ---
+No papers found for this period.
+
+--- Fetching papers for 1994-12 ---
+Found 3 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 3/3 [00:00<?, ?it/s]
+Saved 3 papers for 1994-12.
+
+--- Fetching papers for 1995-01 ---
+Found 3 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 3003.80it/s]
+Saved 3 papers for 1995-01.
+
+--- Fetching papers for 1995-02 ---
+No papers found for this period.
+
+--- Fetching papers for 1995-03 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1995-03.
+
+--- Fetching papers for 1995-04 ---
+Found 1 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+Saved 1 papers for 1995-04.
+
+--- Fetching papers for 1995-05 ---
+Found 5 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 5/5 [00:00<?, ?it/s]
+Saved 5 papers for 1995-05.
+
+--- Fetching papers for 1995-06 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1995-06.
+
+--- Fetching papers for 1995-07 ---
+Found 1 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+Saved 1 papers for 1995-07.
+
+--- Fetching papers for 1995-08 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1995-08.
+
+--- Fetching papers for 1995-09 ---
+No papers found for this period.
+
+--- Fetching papers for 1995-10 ---
+Found 3 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 3/3 [00:00<?, ?it/s]
+Saved 3 papers for 1995-10.
+
+--- Fetching papers for 1995-11 ---
+Found 1 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+Saved 1 papers for 1995-11.
+
+--- Fetching papers for 1995-12 ---
+Found 7 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 7/7 [00:00<?, ?it/s]
+Saved 7 papers for 1995-12.
+
+--- Fetching papers for 1996-01 ---
+Found 1 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+Saved 1 papers for 1996-01.
+
+--- Fetching papers for 1996-02 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1996-02.
+
+--- Fetching papers for 1996-03 ---
+Found 4 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 4/4 [00:00<?, ?it/s]
+Saved 4 papers for 1996-03.
+
+--- Fetching papers for 1996-04 ---
+Found 3 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 3/3 [00:00<?, ?it/s]
+Saved 3 papers for 1996-04.
+
+--- Fetching papers for 1996-05 ---
+Found 6 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 6/6 [00:00<?, ?it/s]
+Saved 6 papers for 1996-05.
+
+--- Fetching papers for 1996-06 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1996-06.
+
+--- Fetching papers for 1996-07 ---
+No papers found for this period.
+
+--- Fetching papers for 1996-08 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1996-08.
+
+--- Fetching papers for 1996-09 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1996-09.
+
+--- Fetching papers for 1996-10 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1996-10.
+
+--- Fetching papers for 1996-11 ---
+Found 1 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+Saved 1 papers for 1996-11.
+
+--- Fetching papers for 1996-12 ---
+Found 3 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 3/3 [00:00<?, ?it/s]
+Saved 3 papers for 1996-12.
+
+--- Fetching papers for 1997-01 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1997-01.
+
+--- Fetching papers for 1997-02 ---
+No papers found for this period.
+
+--- Fetching papers for 1997-03 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1997-03.
+
+--- Fetching papers for 1997-04 ---
+Found 1 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+Saved 1 papers for 1997-04.
+
+--- Fetching papers for 1997-05 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1997-05.
+
+--- Fetching papers for 1997-06 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<00:00, 2002.53it/s]
+Saved 2 papers for 1997-06.
+
+--- Fetching papers for 1997-07 ---
+Found 3 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 3/3 [00:00<?, ?it/s]
+Saved 3 papers for 1997-07.
+
+--- Fetching papers for 1997-08 ---
+No papers found for this period.
+
+--- Fetching papers for 1997-09 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1997-09.
+
+--- Fetching papers for 1997-10 ---
+Found 1 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+Saved 1 papers for 1997-10.
+
+--- Fetching papers for 1997-11 ---
+Found 3 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 3/3 [00:00<?, ?it/s]
+Saved 3 papers for 1997-11.
+
+--- Fetching papers for 1997-12 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1997-12.
+
+--- Fetching papers for 1998-01 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1998-01.
+
+--- Fetching papers for 1998-02 ---
+No papers found for this period.
+
+--- Fetching papers for 1998-03 ---
+Found 3 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 3/3 [00:00<?, ?it/s]
+Saved 3 papers for 1998-03.
+
+--- Fetching papers for 1998-04 ---
+No papers found for this period.
+
+--- Fetching papers for 1998-05 ---
+Found 1 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+Saved 1 papers for 1998-05.
+
+--- Fetching papers for 1998-06 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1998-06.
+
+--- Fetching papers for 1998-07 ---
+No papers found for this period.
+
+--- Fetching papers for 1998-08 ---
+Found 5 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 5/5 [00:00<?, ?it/s]
+Saved 5 papers for 1998-08.
+
+--- Fetching papers for 1998-09 ---
+Found 6 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 6/6 [00:00<?, ?it/s]
+Saved 6 papers for 1998-09.
+
+--- Fetching papers for 1998-10 ---
+Found 5 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 5/5 [00:00<?, ?it/s]
+Saved 5 papers for 1998-10.
+
+--- Fetching papers for 1998-11 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1998-11.
+
+--- Fetching papers for 1998-12 ---
+Found 4 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 4/4 [00:00<?, ?it/s]
+Saved 4 papers for 1998-12.
+
+--- Fetching papers for 1999-01 ---
+Found 6 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 6/6 [00:00<?, ?it/s]
+Saved 6 papers for 1999-01.
+
+--- Fetching papers for 1999-02 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1999-02.
+
+--- Fetching papers for 1999-03 ---
+Found 3 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 3/3 [00:00<?, ?it/s]
+Saved 3 papers for 1999-03.
+
+--- Fetching papers for 1999-04 ---
+Found 1 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+Saved 1 papers for 1999-04.
+
+--- Fetching papers for 1999-05 ---
+Found 1 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+Saved 1 papers for 1999-05.
+
+--- Fetching papers for 1999-06 ---
+Found 6 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 6/6 [00:00<?, ?it/s]
+Saved 6 papers for 1999-06.
+
+--- Fetching papers for 1999-07 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1999-07.
+
+--- Fetching papers for 1999-08 ---
+Found 3 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 3/3 [00:00<?, ?it/s]
+Saved 3 papers for 1999-08.
+
+--- Fetching papers for 1999-09 ---
+Found 4 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 4/4 [00:00<?, ?it/s]
+Saved 4 papers for 1999-09.
+
+--- Fetching papers for 1999-10 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 1999-10.
+
+--- Fetching papers for 1999-11 ---
+Found 1 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+Saved 1 papers for 1999-11.
+
+--- Fetching papers for 1999-12 ---
+Found 1 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+Saved 1 papers for 1999-12.
+
+--- Fetching papers for 2000-01 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 2000-01.
+
+--- Fetching papers for 2000-02 ---
+Found 7 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 7/7 [00:00<?, ?it/s]
+Saved 7 papers for 2000-02.
+
+--- Fetching papers for 2000-03 ---
+Found 54 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 54/54 [00:00<?, ?it/s]
+Saved 54 papers for 2000-03.
+
+--- Fetching papers for 2000-04 ---
+Found 4 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 4/4 [00:00<?, ?it/s]
+Saved 4 papers for 2000-04.
+
+--- Fetching papers for 2000-05 ---
+Found 14 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 14/14 [00:00<?, ?it/s]
+Saved 14 papers for 2000-05.
+
+--- Fetching papers for 2000-06 ---
+Found 5 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 5/5 [00:00<?, ?it/s]
+Saved 5 papers for 2000-06.
+
+--- Fetching papers for 2000-07 ---
+Found 14 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 14/14 [00:00<?, ?it/s]
+Saved 14 papers for 2000-07.
+
+--- Fetching papers for 2000-08 ---
+Found 3 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 3/3 [00:00<?, ?it/s]
+Saved 3 papers for 2000-08.
+
+--- Fetching papers for 2000-09 ---
+Found 7 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 7/7 [00:00<?, ?it/s]
+Saved 7 papers for 2000-09.
+
+--- Fetching papers for 2000-10 ---
+Found 3 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 3/3 [00:00<?, ?it/s]
+Saved 3 papers for 2000-10.
+
+--- Fetching papers for 2000-11 ---
+Found 5 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 5/5 [00:00<?, ?it/s]
+Saved 5 papers for 2000-11.
+
+--- Fetching papers for 2000-12 ---
+Found 4 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 4/4 [00:00<?, ?it/s]
+Saved 4 papers for 2000-12.
+
+--- Fetching papers for 2001-01 ---
+Found 3 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 3/3 [00:00<?, ?it/s]
+Saved 3 papers for 2001-01.
+
+--- Fetching papers for 2001-02 ---
+Found 3 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 3/3 [00:00<?, ?it/s]
+Saved 3 papers for 2001-02.
+
+--- Fetching papers for 2001-03 ---
+Found 3 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 3/3 [00:00<?, ?it/s]
+Saved 3 papers for 2001-03.
+
+--- Fetching papers for 2001-04 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 2001-04.
+
+--- Fetching papers for 2001-05 ---
+Found 8 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 8/8 [00:00<?, ?it/s]
+Saved 8 papers for 2001-05.
+
+--- Fetching papers for 2001-06 ---
+Found 14 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 14/14 [00:00<?, ?it/s]
+Saved 14 papers for 2001-06.
+
+--- Fetching papers for 2001-07 ---
+Found 8 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 8/8 [00:00<?, ?it/s]
+Saved 8 papers for 2001-07.
+
+--- Fetching papers for 2001-08 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 2001-08.
+
+--- Fetching papers for 2001-09 ---
+Found 7 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 7/7 [00:00<?, ?it/s]
+Saved 7 papers for 2001-09.
+
+--- Fetching papers for 2001-10 ---
+Found 5 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 4988.47it/s]
+Saved 5 papers for 2001-10.
+
+--- Fetching papers for 2001-11 ---
+Found 5 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 5/5 [00:00<?, ?it/s]
+Saved 5 papers for 2001-11.
+
+--- Fetching papers for 2001-12 ---
+Found 7 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 7/7 [00:00<?, ?it/s]
+Saved 7 papers for 2001-12.
+
+--- Fetching papers for 2002-01 ---
+Found 5 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 5/5 [00:00<?, ?it/s]
+Saved 5 papers for 2002-01.
+
+--- Fetching papers for 2002-02 ---
+Found 19 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 19/19 [00:00<?, ?it/s]
+Saved 19 papers for 2002-02.
+
+--- Fetching papers for 2002-03 ---
+Found 10 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 10/10 [00:00<?, ?it/s]
+Saved 10 papers for 2002-03.
+
+--- Fetching papers for 2002-04 ---
+Found 9 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 9/9 [00:00<?, ?it/s]
+Saved 9 papers for 2002-04.
+
+--- Fetching papers for 2002-05 ---
+Found 6 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 6/6 [00:00<?, ?it/s]
+Saved 6 papers for 2002-05.
+
+--- Fetching papers for 2002-06 ---
+Found 9 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 9/9 [00:00<?, ?it/s]
+Saved 9 papers for 2002-06.
+
+--- Fetching papers for 2002-07 ---
+Found 27 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 27/27 [00:00<?, ?it/s]
+Saved 27 papers for 2002-07.
+
+--- Fetching papers for 2002-08 ---
+Found 6 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 6/6 [00:00<?, ?it/s]
+Saved 6 papers for 2002-08.
+
+--- Fetching papers for 2002-09 ---
+Found 5 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 5/5 [00:00<?, ?it/s]
+Saved 5 papers for 2002-09.
+
+--- Fetching papers for 2002-10 ---
+Found 6 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 6/6 [00:00<?, ?it/s]
+Saved 6 papers for 2002-10.
+
+--- Fetching papers for 2002-11 ---
+Found 13 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 13/13 [00:00<?, ?it/s]
+Saved 13 papers for 2002-11.
+
+--- Fetching papers for 2002-12 ---
+Found 3 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 2976.79it/s]
+Saved 3 papers for 2002-12.
+
+--- Fetching papers for 2003-01 ---
+Found 6 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 6/6 [00:00<?, ?it/s]
+Saved 6 papers for 2003-01.
+
+--- Fetching papers for 2003-02 ---
+Found 5 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 5/5 [00:00<?, ?it/s]
+Saved 5 papers for 2003-02.
+
+--- Fetching papers for 2003-03 ---
+Found 5 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 5/5 [00:00<?, ?it/s]
+Saved 5 papers for 2003-03.
+
+--- Fetching papers for 2003-04 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<00:00, 999.24it/s]
+Saved 2 papers for 2003-04.
+
+--- Fetching papers for 2003-05 ---
+Found 26 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 26/26 [00:00<?, ?it/s]
+Saved 26 papers for 2003-05.
+
+--- Fetching papers for 2003-06 ---
+Found 12 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 12/12 [00:00<?, ?it/s]
+Saved 12 papers for 2003-06.
+
+--- Fetching papers for 2003-07 ---
+Found 16 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 16/16 [00:00<?, ?it/s]
+Saved 16 papers for 2003-07.
+
+--- Fetching papers for 2003-08 ---
+Found 6 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 6/6 [00:00<?, ?it/s]
+Saved 6 papers for 2003-08.
+
+--- Fetching papers for 2003-09 ---
+Found 9 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 9/9 [00:00<?, ?it/s]
+Saved 9 papers for 2003-09.
+
+--- Fetching papers for 2003-10 ---
+Found 7 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 7/7 [00:00<?, ?it/s]
+Saved 7 papers for 2003-10.
+
+--- Fetching papers for 2003-11 ---
+Found 16 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 16/16 [00:00<?, ?it/s]
+Saved 16 papers for 2003-11.
+
+--- Fetching papers for 2003-12 ---
+Found 19 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 19/19 [00:00<?, ?it/s]
+Saved 19 papers for 2003-12.
+
+--- Fetching papers for 2004-01 ---
+Found 2 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:00<?, ?it/s]
+Saved 2 papers for 2004-01.
+
+--- Fetching papers for 2004-02 ---
+Found 11 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 11/11 [00:00<?, ?it/s]
+Saved 11 papers for 2004-02.
+
+--- Fetching papers for 2004-03 ---
+Found 10 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 10/10 [00:00<?, ?it/s]
+Saved 10 papers for 2004-03.
+
+--- Fetching papers for 2004-04 ---
+Found 12 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 12/12 [00:00<?, ?it/s]
+Saved 12 papers for 2004-04.
+
+--- Fetching papers for 2004-05 ---
+Found 34 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 34/34 [00:00<?, ?it/s]
+Saved 34 papers for 2004-05.
+
+--- Fetching papers for 2004-06 ---
+Found 6 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 6/6 [00:00<?, ?it/s]
+Saved 6 papers for 2004-06.
+
+--- Fetching papers for 2004-07 ---
+Found 16 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 16/16 [00:00<?, ?it/s]
+Saved 16 papers for 2004-07.
+
+--- Fetching papers for 2004-08 ---
+Found 11 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 11/11 [00:00<?, ?it/s]
+Saved 11 papers for 2004-08.
+
+--- Fetching papers for 2004-09 ---
+Found 8 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 8/8 [00:00<?, ?it/s]
+Saved 8 papers for 2004-09.
+
+--- Fetching papers for 2004-10 ---
+Found 10 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 10/10 [00:00<?, ?it/s]
+Saved 10 papers for 2004-10.
+
+--- Fetching papers for 2004-11 ---
+Found 10 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 10/10 [00:00<?, ?it/s]
+Saved 10 papers for 2004-11.
+
+--- Fetching papers for 2004-12 ---
+Found 31 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 31/31 [00:00<?, ?it/s]
+Saved 31 papers for 2004-12.
+
+--- Fetching papers for 2005-01 ---
+Found 6 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 6/6 [00:00<?, ?it/s]
+Saved 6 papers for 2005-01.
+
+--- Fetching papers for 2005-02 ---
+Found 16 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 16/16 [00:00<?, ?it/s]
+Saved 16 papers for 2005-02.
+
+--- Fetching papers for 2005-03 ---
+Found 10 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 10/10 [00:00<?, ?it/s]
+Saved 10 papers for 2005-03.
+
+--- Fetching papers for 2005-04 ---
+Found 26 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 26/26 [00:00<?, ?it/s]
+Saved 26 papers for 2005-04.
+
+--- Fetching papers for 2005-05 ---
+Found 11 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 11/11 [00:00<?, ?it/s]
+Saved 11 papers for 2005-05.
+
+--- Fetching papers for 2005-06 ---
+Found 9 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 9/9 [00:00<00:00, 8026.52it/s]
+Saved 9 papers for 2005-06.
+
+--- Fetching papers for 2005-07 ---
+Found 15 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 15/15 [00:00<?, ?it/s]
+Saved 15 papers for 2005-07.
+
+--- Fetching papers for 2005-08 ---
+Found 8 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 8/8 [00:00<?, ?it/s]
+Saved 8 papers for 2005-08.
+
+--- Fetching papers for 2005-09 ---
+Found 10 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 10/10 [00:00<?, ?it/s]
+Saved 10 papers for 2005-09.
+
+--- Fetching papers for 2005-10 ---
+Found 12 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 12/12 [00:00<?, ?it/s]
+Saved 12 papers for 2005-10.
+
+--- Fetching papers for 2005-11 ---
+Found 12 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 12/12 [00:00<?, ?it/s]
+Saved 12 papers for 2005-11.
+
+--- Fetching papers for 2005-12 ---
+Found 10 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 10/10 [00:00<?, ?it/s]
+Saved 10 papers for 2005-12.
+
+--- Fetching papers for 2006-01 ---
+Found 14 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 14/14 [00:00<?, ?it/s]
+Saved 14 papers for 2006-01.
+
+--- Fetching papers for 2006-02 ---
+Found 9 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 9/9 [00:00<?, ?it/s]
+Saved 9 papers for 2006-02.
+
+--- Fetching papers for 2006-03 ---
+Found 9 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 9/9 [00:00<?, ?it/s]
+Saved 9 papers for 2006-03.
+
+--- Fetching papers for 2006-04 ---
+Found 10 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 10/10 [00:00<?, ?it/s]
+Saved 10 papers for 2006-04.
+
+--- Fetching papers for 2006-05 ---
+Found 20 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 20/20 [00:00<?, ?it/s]
+Saved 20 papers for 2006-05.
+
+--- Fetching papers for 2006-06 ---
+Found 13 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 13/13 [00:00<?, ?it/s]
+Saved 13 papers for 2006-06.
+
+--- Fetching papers for 2006-07 ---
+Found 15 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 15/15 [00:00<?, ?it/s]
+Saved 15 papers for 2006-07.
+
+--- Fetching papers for 2006-08 ---
+Found 10 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 10/10 [00:00<?, ?it/s]
+Saved 10 papers for 2006-08.
+
+--- Fetching papers for 2006-09 ---
+Found 14 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 14/14 [00:00<?, ?it/s]
+Saved 14 papers for 2006-09.
+
+--- Fetching papers for 2006-10 ---
+Found 20 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 20/20 [00:00<?, ?it/s]
+Saved 20 papers for 2006-10.
+
+--- Fetching papers for 2006-11 ---
+Found 16 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 16/16 [00:00<?, ?it/s]
+Saved 16 papers for 2006-11.
+
+--- Fetching papers for 2006-12 ---
+Found 9 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 9/9 [00:00<?, ?it/s]
+Saved 9 papers for 2006-12.
+
+--- Fetching papers for 2007-01 ---
+Found 12 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 12/12 [00:00<?, ?it/s]
+Saved 12 papers for 2007-01.
+
+--- Fetching papers for 2007-02 ---
+Found 8 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 8/8 [00:00<?, ?it/s]
+Saved 8 papers for 2007-02.
+
+--- Fetching papers for 2007-03 ---
+Found 11 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 11/11 [00:00<00:00, 10982.47it/s]
+Saved 11 papers for 2007-03.
+
+--- Fetching papers for 2007-04 ---
+Found 19 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 19/19 [00:00<?, ?it/s]
+Saved 19 papers for 2007-04.
+
+--- Fetching papers for 2007-05 ---
+Found 31 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 31/31 [00:00<?, ?it/s]
+Saved 31 papers for 2007-05.
+
+--- Fetching papers for 2007-06 ---
+Found 8 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 8/8 [00:00<?, ?it/s]
+Saved 8 papers for 2007-06.
+
+--- Fetching papers for 2007-07 ---
+Found 14 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 14/14 [00:00<?, ?it/s]
+Saved 14 papers for 2007-07.
+
+--- Fetching papers for 2007-08 ---
+Found 10 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 10/10 [00:00<?, ?it/s]
+Saved 10 papers for 2007-08.
+
+--- Fetching papers for 2007-09 ---
+Found 20 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 20/20 [00:00<?, ?it/s]
+Saved 20 papers for 2007-09.
+
+--- Fetching papers for 2007-10 ---
+Found 14 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 14/14 [00:00<?, ?it/s]
+Saved 14 papers for 2007-10.
+
+--- Fetching papers for 2007-11 ---
+Found 15 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 15/15 [00:00<?, ?it/s]
+Saved 15 papers for 2007-11.
+
+--- Fetching papers for 2007-12 ---
+Found 22 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 22/22 [00:00<00:00, 21964.93it/s]
+Saved 22 papers for 2007-12.
+
+--- Fetching papers for 2008-01 ---
+Found 16 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 16/16 [00:00<?, ?it/s]
+Saved 16 papers for 2008-01.
+
+--- Fetching papers for 2008-02 ---
+Found 12 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 12/12 [00:00<?, ?it/s]
+Saved 12 papers for 2008-02.
+
+--- Fetching papers for 2008-03 ---
+Found 23 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 23/23 [00:00<?, ?it/s]
+Saved 23 papers for 2008-03.
+
+--- Fetching papers for 2008-04 ---
+Found 22 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 22/22 [00:00<?, ?it/s]
+Saved 22 papers for 2008-04.
+
+--- Fetching papers for 2008-05 ---
+Found 30 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 30/30 [00:00<?, ?it/s]
+Saved 30 papers for 2008-05.
+
+--- Fetching papers for 2008-06 ---
+Found 29 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 29/29 [00:00<?, ?it/s]
+Saved 29 papers for 2008-06.
+
+--- Fetching papers for 2008-07 ---
+Found 18 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 18/18 [00:00<?, ?it/s]
+Saved 18 papers for 2008-07.
+
+--- Fetching papers for 2008-08 ---
+Found 10 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 10/10 [00:00<?, ?it/s]
+Saved 10 papers for 2008-08.
+
+--- Fetching papers for 2008-09 ---
+Found 30 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 30/30 [00:00<?, ?it/s]
+Saved 30 papers for 2008-09.
+
+--- Fetching papers for 2008-10 ---
+Found 23 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 23/23 [00:00<?, ?it/s]
+Saved 23 papers for 2008-10.
+
+--- Fetching papers for 2008-11 ---
+Found 24 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 24/24 [00:00<?, ?it/s]
+Saved 24 papers for 2008-11.
+
+--- Fetching papers for 2008-12 ---
+Found 32 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 32/32 [00:00<?, ?it/s]
+Saved 32 papers for 2008-12.
+
+--- Fetching papers for 2009-01 ---
+Found 19 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 19/19 [00:00<?, ?it/s]
+Saved 19 papers for 2009-01.
+
+--- Fetching papers for 2009-02 ---
+Found 29 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 29/29 [00:00<?, ?it/s]
+Saved 29 papers for 2009-02.
+
+--- Fetching papers for 2009-03 ---
+Found 47 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 47/47 [00:00<?, ?it/s]
+Saved 47 papers for 2009-03.
+
+--- Fetching papers for 2009-04 ---
+Found 37 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 37/37 [00:00<?, ?it/s]
+Saved 37 papers for 2009-04.
+
+--- Fetching papers for 2009-05 ---
+Found 32 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 32/32 [00:00<?, ?it/s]
+Saved 32 papers for 2009-05.
+
+--- Fetching papers for 2009-06 ---
+Found 36 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 36/36 [00:00<?, ?it/s]
+Saved 36 papers for 2009-06.
+
+--- Fetching papers for 2009-07 ---
+Found 36 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 36/36 [00:00<?, ?it/s]
+Saved 36 papers for 2009-07.
+
+--- Fetching papers for 2009-08 ---
+Found 13 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 13/13 [00:00<?, ?it/s]
+Saved 13 papers for 2009-08.
+
+--- Fetching papers for 2009-09 ---
+Found 33 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 33/33 [00:00<?, ?it/s]
+Saved 33 papers for 2009-09.
+
+--- Fetching papers for 2009-10 ---
+Found 37 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 37/37 [00:00<00:00, 29746.84it/s]
+Saved 37 papers for 2009-10.
+
+--- Fetching papers for 2009-11 ---
+Found 23 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 23/23 [00:00<?, ?it/s]
+Saved 23 papers for 2009-11.
+
+--- Fetching papers for 2009-12 ---
+Found 28 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 28/28 [00:00<?, ?it/s]
+Saved 28 papers for 2009-12.
+
+--- Fetching papers for 2010-01 ---
+Found 33 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 33/33 [00:00<?, ?it/s]
+Saved 33 papers for 2010-01.
+
+--- Fetching papers for 2010-02 ---
+Found 37 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 37/37 [00:00<00:00, 37073.40it/s]
+Saved 37 papers for 2010-02.
+
+--- Fetching papers for 2010-03 ---
+Found 37 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 37/37 [00:00<?, ?it/s]
+Saved 37 papers for 2010-03.
+
+--- Fetching papers for 2010-04 ---
+Found 42 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 42/42 [00:00<?, ?it/s]
+Saved 42 papers for 2010-04.
+
+--- Fetching papers for 2010-05 ---
+Found 38 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 38/38 [00:00<?, ?it/s]
+Saved 38 papers for 2010-05.
+
+--- Fetching papers for 2010-06 ---
+Found 58 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 58/58 [00:00<?, ?it/s]
+Saved 58 papers for 2010-06.
+
+--- Fetching papers for 2010-07 ---
+Found 36 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 36/36 [00:00<?, ?it/s]
+Saved 36 papers for 2010-07.
+
+--- Fetching papers for 2010-08 ---
+Found 40 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 40/40 [00:00<?, ?it/s]
+Saved 40 papers for 2010-08.
+
+--- Fetching papers for 2010-09 ---
+Found 27 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 27/27 [00:00<?, ?it/s]
+Saved 27 papers for 2010-09.
+
+--- Fetching papers for 2010-10 ---
+Found 22 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 22/22 [00:00<00:00, 21635.33it/s]
+Saved 22 papers for 2010-10.
+
+--- Fetching papers for 2010-11 ---
+Found 33 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 33/33 [00:00<?, ?it/s]
+Saved 33 papers for 2010-11.
+
+--- Fetching papers for 2010-12 ---
+Found 57 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 57/57 [00:00<?, ?it/s]
+Saved 57 papers for 2010-12.
+
+--- Fetching papers for 2011-01 ---
+Found 21 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 21/21 [00:00<?, ?it/s]
+Saved 21 papers for 2011-01.
+
+--- Fetching papers for 2011-02 ---
+Found 44 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 44/44 [00:00<?, ?it/s]
+Saved 44 papers for 2011-02.
+
+--- Fetching papers for 2011-03 ---
+Found 45 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 45/45 [00:00<00:00, 44960.38it/s]
+Saved 45 papers for 2011-03.
+
+--- Fetching papers for 2011-04 ---
+Found 35 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 35/35 [00:00<?, ?it/s]
+Saved 35 papers for 2011-04.
+
+--- Fetching papers for 2011-05 ---
+Found 54 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 54/54 [00:00<?, ?it/s]
+Saved 54 papers for 2011-05.
+
+--- Fetching papers for 2011-06 ---
+Found 154 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 154/154 [00:00<00:00, 154011.16it/s]
+Saved 154 papers for 2011-06.
+
+--- Fetching papers for 2011-07 ---
+Found 69 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 69/69 [00:00<?, ?it/s]
+Saved 69 papers for 2011-07.
+
+--- Fetching papers for 2011-08 ---
+Found 55 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 55/55 [00:00<?, ?it/s]
+Saved 55 papers for 2011-08.
+
+--- Fetching papers for 2011-09 ---
+Found 91 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 91/91 [00:00<?, ?it/s]
+Saved 91 papers for 2011-09.
+
+--- Fetching papers for 2011-10 ---
+Found 71 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 71/71 [00:00<00:00, 71055.97it/s]
+Saved 71 papers for 2011-10.
+
+--- Fetching papers for 2011-11 ---
+Found 37 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 37/37 [00:00<?, ?it/s]
+Saved 37 papers for 2011-11.
+
+--- Fetching papers for 2011-12 ---
+Found 32 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 32/32 [00:00<?, ?it/s]
+Saved 32 papers for 2011-12.
+
+--- Fetching papers for 2012-01 ---
+Found 41 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 41/41 [00:00<?, ?it/s]
+Saved 41 papers for 2012-01.
+
+--- Fetching papers for 2012-02 ---
+Found 95 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 95/95 [00:00<?, ?it/s]
+Saved 95 papers for 2012-02.
+
+--- Fetching papers for 2012-03 ---
+Found 86 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 86/86 [00:00<?, ?it/s]
+Saved 86 papers for 2012-03.
+
+--- Fetching papers for 2012-04 ---
+Found 71 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 71/71 [00:00<?, ?it/s]
+Saved 71 papers for 2012-04.
+
+--- Fetching papers for 2012-05 ---
+Found 58 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 58/58 [00:00<?, ?it/s]
+Saved 58 papers for 2012-05.
+
+--- Fetching papers for 2012-06 ---
+Found 205 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 205/205 [00:00<00:00, 102593.05it/s]
+Saved 205 papers for 2012-06.
+
+--- Fetching papers for 2012-07 ---
+Found 165 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 165/165 [00:00<00:00, 128995.37it/s]
+Saved 165 papers for 2012-07.
+
+--- Fetching papers for 2012-08 ---
+Found 41 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 41/41 [00:00<?, ?it/s]
+Saved 41 papers for 2012-08.
+
+--- Fetching papers for 2012-09 ---
+Found 60 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 60/60 [00:00<00:00, 59325.37it/s]
+Saved 60 papers for 2012-09.
+
+--- Fetching papers for 2012-10 ---
+Found 142 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 142/142 [00:00<00:00, 110560.83it/s]
+Saved 142 papers for 2012-10.
+
+--- Fetching papers for 2012-11 ---
+Found 49 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 49/49 [00:00<?, ?it/s]
+Saved 49 papers for 2012-11.
+
+--- Fetching papers for 2012-12 ---
+Found 103 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 103/103 [00:00<?, ?it/s]
+Saved 103 papers for 2012-12.
+
+--- Fetching papers for 2013-01 ---
+Found 306 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 306/306 [00:00<?, ?it/s]
+Saved 306 papers for 2013-01.
+
+--- Fetching papers for 2013-02 ---
+Found 286 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 286/286 [00:00<?, ?it/s]
+Saved 286 papers for 2013-02.
+
+--- Fetching papers for 2013-03 ---
+Found 506 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 506/506 [00:00<?, ?it/s]
+Saved 506 papers for 2013-03.
+
+--- Fetching papers for 2013-04 ---
+Found 88 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 88/88 [00:00<?, ?it/s]
+Saved 88 papers for 2013-04.
+
+--- Fetching papers for 2013-05 ---
+Found 54 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 54/54 [00:00<?, ?it/s]
+Saved 54 papers for 2013-05.
+
+--- Fetching papers for 2013-06 ---
+Found 66 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 66/66 [00:00<?, ?it/s]
+Saved 66 papers for 2013-06.
+
+--- Fetching papers for 2013-07 ---
+Found 70 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 70/70 [00:00<?, ?it/s]
+Saved 70 papers for 2013-07.
+
+--- Fetching papers for 2013-08 ---
+Found 50 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 50/50 [00:00<?, ?it/s]
+Saved 50 papers for 2013-08.
+
+--- Fetching papers for 2013-09 ---
+Found 89 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 89/89 [00:00<?, ?it/s]
+Saved 89 papers for 2013-09.
+
+--- Fetching papers for 2013-10 ---
+Found 58 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 58/58 [00:00<00:00, 57866.23it/s]
+Saved 58 papers for 2013-10.
+
+--- Fetching papers for 2013-11 ---
+Found 50 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 50/50 [00:00<00:00, 50027.48it/s]
+Saved 50 papers for 2013-11.
+
+--- Fetching papers for 2013-12 ---
+Found 75 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 75/75 [00:00<?, ?it/s]
+Saved 75 papers for 2013-12.
+
+--- Fetching papers for 2014-01 ---
+Found 195 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 195/195 [00:00<?, ?it/s]
+Saved 195 papers for 2014-01.
+
+--- Fetching papers for 2014-02 ---
+Found 90 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 90/90 [00:00<?, ?it/s]
+Saved 90 papers for 2014-02.
+
+--- Fetching papers for 2014-03 ---
+Found 46 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 46/46 [00:00<?, ?it/s]
+Saved 46 papers for 2014-03.
+
+--- Fetching papers for 2014-04 ---
+Found 74 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 74/74 [00:00<?, ?it/s]
+Saved 74 papers for 2014-04.
+
+--- Fetching papers for 2014-05 ---
+Found 108 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 108/108 [00:00<?, ?it/s]
+Saved 108 papers for 2014-05.
+
+--- Fetching papers for 2014-06 ---
+Found 76 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 76/76 [00:00<?, ?it/s]
+Saved 76 papers for 2014-06.
+
+--- Fetching papers for 2014-07 ---
+Found 71 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 71/71 [00:00<?, ?it/s]
+Saved 71 papers for 2014-07.
+
+--- Fetching papers for 2014-08 ---
+Found 65 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 65/65 [00:00<?, ?it/s]
+Saved 65 papers for 2014-08.
+
+--- Fetching papers for 2014-09 ---
+Found 50 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 50/50 [00:00<?, ?it/s]
+Saved 50 papers for 2014-09.
+
+--- Fetching papers for 2014-10 ---
+Found 61 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 61/61 [00:00<?, ?it/s]
+Saved 61 papers for 2014-10.
+
+--- Fetching papers for 2014-11 ---
+Found 90 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 90/90 [00:00<?, ?it/s]
+Saved 90 papers for 2014-11.
+
+--- Fetching papers for 2014-12 ---
+Found 82 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 82/82 [00:00<?, ?it/s]
+Saved 82 papers for 2014-12.
+
+--- Fetching papers for 2015-01 ---
+Found 60 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 60/60 [00:00<?, ?it/s]
+Saved 60 papers for 2015-01.
+
+--- Fetching papers for 2015-02 ---
+Found 79 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 79/79 [00:00<?, ?it/s]
+Saved 79 papers for 2015-02.
+
+--- Fetching papers for 2015-03 ---
+Found 86 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 86/86 [00:00<?, ?it/s]
+Saved 86 papers for 2015-03.
+
+--- Fetching papers for 2015-04 ---
+Found 73 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 73/73 [00:00<?, ?it/s]
+Saved 73 papers for 2015-04.
+
+--- Fetching papers for 2015-05 ---
+Found 102 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 102/102 [00:00<?, ?it/s]
+Saved 102 papers for 2015-05.
+
+--- Fetching papers for 2015-06 ---
+Found 89 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 89/89 [00:00<?, ?it/s]
+Saved 89 papers for 2015-06.
+
+--- Fetching papers for 2015-07 ---
+Found 96 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 96/96 [00:00<?, ?it/s]
+Saved 96 papers for 2015-07.
+
+--- Fetching papers for 2015-08 ---
+Found 76 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 76/76 [00:00<?, ?it/s]
+Saved 76 papers for 2015-08.
+
+--- Fetching papers for 2015-09 ---
+Found 94 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 94/94 [00:00<?, ?it/s]
+Saved 94 papers for 2015-09.
+
+--- Fetching papers for 2015-10 ---
+Found 74 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 74/74 [00:00<?, ?it/s]
+Saved 74 papers for 2015-10.
+
+--- Fetching papers for 2015-11 ---
+Found 124 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 124/124 [00:00<?, ?it/s]
+Saved 124 papers for 2015-11.
+
+--- Fetching papers for 2015-12 ---
+Found 118 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 118/118 [00:00<00:00, 115126.28it/s]
+Saved 118 papers for 2015-12.
+
+--- Fetching papers for 2016-01 ---
+Found 84 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 84/84 [00:00<?, ?it/s]
+Saved 84 papers for 2016-01.
+
+--- Fetching papers for 2016-02 ---
+Found 130 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 130/130 [00:00<?, ?it/s]
+Saved 130 papers for 2016-02.
+
+--- Fetching papers for 2016-03 ---
+Found 115 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 115/115 [00:00<?, ?it/s]
+Saved 115 papers for 2016-03.
+
+--- Fetching papers for 2016-04 ---
+Found 182 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 182/182 [00:00<00:00, 12347.36it/s]
+Saved 182 papers for 2016-04.
+
+--- Fetching papers for 2016-05 ---
+Found 149 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 149/149 [00:00<00:00, 9805.93it/s]
+Saved 149 papers for 2016-05.
+
+--- Fetching papers for 2016-06 ---
+Found 210 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 210/210 [00:00<00:00, 16664.85it/s]
+Saved 210 papers for 2016-06.
+
+--- Fetching papers for 2016-07 ---
+Found 154 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 154/154 [00:00<?, ?it/s]
+Saved 154 papers for 2016-07.
+
+--- Fetching papers for 2016-08 ---
+Found 144 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 144/144 [00:00<?, ?it/s]
+Saved 144 papers for 2016-08.
+
+--- Fetching papers for 2016-09 ---
+Found 143 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 143/143 [00:00<00:00, 37566.42it/s]
+Saved 143 papers for 2016-09.
+
+--- Fetching papers for 2016-10 ---
+Found 158 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 158/158 [00:00<?, ?it/s]
+Saved 158 papers for 2016-10.
+
+--- Fetching papers for 2016-11 ---
+Found 207 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 207/207 [00:00<?, ?it/s]
+Saved 207 papers for 2016-11.
+
+--- Fetching papers for 2016-12 ---
+Found 191 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 191/191 [00:00<00:00, 95234.43it/s]
+Saved 191 papers for 2016-12.
+
+--- Fetching papers for 2017-01 ---
+Found 131 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 131/131 [00:00<?, ?it/s]
+Saved 131 papers for 2017-01.
+
+--- Fetching papers for 2017-02 ---
+Found 127 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 127/127 [00:00<?, ?it/s]
+Saved 127 papers for 2017-02.
+
+--- Fetching papers for 2017-03 ---
+Found 236 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 236/236 [00:00<00:00, 39035.25it/s]
+Saved 236 papers for 2017-03.
+
+--- Fetching papers for 2017-04 ---
+Found 211 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 211/211 [00:00<00:00, 25687.11it/s]
+Saved 211 papers for 2017-04.
+
+--- Fetching papers for 2017-05 ---
+Found 272 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 272/272 [00:00<00:00, 135993.65it/s]
+Saved 272 papers for 2017-05.
+
+--- Fetching papers for 2017-06 ---
+Found 211 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 211/211 [00:00<00:00, 65241.29it/s]
+Saved 211 papers for 2017-06.
+
+--- Fetching papers for 2017-07 ---
+Found 251 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 251/251 [00:00<00:00, 105108.86it/s]
+Saved 251 papers for 2017-07.
+
+--- Fetching papers for 2017-08 ---
+Found 225 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 225/225 [00:00<00:00, 131547.03it/s]
+Saved 225 papers for 2017-08.
+
+--- Fetching papers for 2017-09 ---
+Found 306 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 306/306 [00:00<?, ?it/s]
+Saved 306 papers for 2017-09.
+
+--- Fetching papers for 2017-10 ---
+Found 217 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 217/217 [00:00<00:00, 33984.17it/s]
+Saved 217 papers for 2017-10.
+
+--- Fetching papers for 2017-11 ---
+Found 320 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 320/320 [00:00<00:00, 232170.43it/s]
+Saved 320 papers for 2017-11.
+
+--- Fetching papers for 2017-12 ---
+Found 196 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 196/196 [00:00<00:00, 48791.24it/s]
+Saved 196 papers for 2017-12.
+
+--- Fetching papers for 2018-01 ---
+Found 222 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 222/222 [00:00<?, ?it/s]
+Saved 222 papers for 2018-01.
+
+--- Fetching papers for 2018-02 ---
+Found 323 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 323/323 [00:00<00:00, 185710.79it/s]
+Saved 323 papers for 2018-02.
+
+--- Fetching papers for 2018-03 ---
+Found 291 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 291/291 [00:00<00:00, 29289.97it/s]
+Saved 291 papers for 2018-03.
+
+--- Fetching papers for 2018-04 ---
+Found 323 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 323/323 [00:00<?, ?it/s]
+Saved 323 papers for 2018-04.
+
+--- Fetching papers for 2018-05 ---
+Found 420 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 420/420 [00:00<00:00, 40677.20it/s]
+Saved 420 papers for 2018-05.
+
+--- Fetching papers for 2018-06 ---
+Found 396 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 396/396 [00:00<00:00, 291854.57it/s]
+Saved 396 papers for 2018-06.
+
+--- Fetching papers for 2018-07 ---
+Found 329 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 329/329 [00:00<00:00, 135699.28it/s]
+Saved 329 papers for 2018-07.
+
+--- Fetching papers for 2018-08 ---
+Found 256 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 256/256 [00:00<00:00, 105320.43it/s]
+Saved 256 papers for 2018-08.
+
+--- Fetching papers for 2018-09 ---
+Found 410 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 410/410 [00:00<00:00, 321072.56it/s]
+Saved 410 papers for 2018-09.
+
+--- Fetching papers for 2018-10 ---
+Found 396 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 396/396 [00:00<?, ?it/s]
+Saved 396 papers for 2018-10.
+
+--- Fetching papers for 2018-11 ---
+Found 446 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 446/446 [00:00<00:00, 223522.47it/s]
+Saved 446 papers for 2018-11.
+
+--- Fetching papers for 2018-12 ---
+Found 306 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 306/306 [00:00<00:00, 245168.49it/s]
+Saved 306 papers for 2018-12.
+
+--- Fetching papers for 2019-01 ---
+Found 273 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 273/273 [00:00<?, ?it/s]
+Saved 273 papers for 2019-01.
+
+--- Fetching papers for 2019-02 ---
+Found 287 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 287/287 [00:00<00:00, 287226.26it/s]
+Saved 287 papers for 2019-02.
+
+--- Fetching papers for 2019-03 ---
+Found 344 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 344/344 [00:00<?, ?it/s]
+Saved 344 papers for 2019-03.
+
+--- Fetching papers for 2019-04 ---
+Found 379 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 379/379 [00:00<00:00, 189423.41it/s]
+Saved 379 papers for 2019-04.
+
+--- Fetching papers for 2019-05 ---
+Found 534 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 534/534 [00:00<00:00, 267019.35it/s]
+Saved 534 papers for 2019-05.
+
+--- Fetching papers for 2019-06 ---
+Found 457 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 457/457 [00:00<00:00, 122494.69it/s]
+Saved 457 papers for 2019-06.
+
+--- Fetching papers for 2019-07 ---
+Found 348 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 348/348 [00:00<00:00, 264327.74it/s]
+Saved 348 papers for 2019-07.
+
+--- Fetching papers for 2019-08 ---
+Found 288 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 288/288 [00:00<00:00, 287883.59it/s]
+Saved 288 papers for 2019-08.
+
+--- Fetching papers for 2019-09 ---
+Found 551 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 551/551 [00:00<00:00, 183577.85it/s]
+Saved 551 papers for 2019-09.
+
+--- Fetching papers for 2019-10 ---
+Found 379 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 379/379 [00:00<00:00, 139711.83it/s]
+Saved 379 papers for 2019-10.
+
+--- Fetching papers for 2019-11 ---
+Found 427 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 427/427 [00:00<00:00, 146909.02it/s]
+Saved 427 papers for 2019-11.
+
+--- Fetching papers for 2019-12 ---
+Found 316 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 316/316 [00:00<00:00, 53832.10it/s]
+Saved 316 papers for 2019-12.
+
+--- Fetching papers for 2020-01 ---
+Found 337 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 337/337 [00:00<00:00, 116011.20it/s]
+Saved 337 papers for 2020-01.
+
+--- Fetching papers for 2020-02 ---
+Found 428 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 428/428 [00:00<00:00, 26913.97it/s]
+Saved 428 papers for 2020-02.
+
+--- Fetching papers for 2020-03 ---
+Found 385 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 385/385 [00:00<00:00, 350511.62it/s]
+Saved 385 papers for 2020-03.
+
+--- Fetching papers for 2020-04 ---
+Found 417 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 417/417 [00:00<00:00, 283932.59it/s]
+Saved 417 papers for 2020-04.
+
+--- Fetching papers for 2020-05 ---
+Found 488 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 488/488 [00:00<00:00, 162678.46it/s]
+Saved 488 papers for 2020-05.
+
+--- Fetching papers for 2020-06 ---
+Found 544 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 544/544 [00:00<00:00, 197174.33it/s]
+Saved 544 papers for 2020-06.
+
+--- Fetching papers for 2020-07 ---
+Found 506 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 506/506 [00:00<00:00, 87259.18it/s]
+Saved 506 papers for 2020-07.
+
+--- Fetching papers for 2020-08 ---
+Found 472 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 472/472 [00:00<00:00, 58984.94it/s]
+Saved 472 papers for 2020-08.
+
+--- Fetching papers for 2020-09 ---
+Found 738 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 738/738 [00:00<00:00, 139639.84it/s]
+Saved 738 papers for 2020-09.
+
+--- Fetching papers for 2020-10 ---
+Found 1086 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1086/1086 [00:00<00:00, 135372.51it/s]
+Saved 1086 papers for 2020-10.
+
+--- Fetching papers for 2020-11 ---
+Found 822 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 822/822 [00:00<00:00, 348359.90it/s]
+Saved 822 papers for 2020-11.
+
+--- Fetching papers for 2020-12 ---
+Found 924 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 924/924 [00:00<00:00, 207870.46it/s]
+Saved 924 papers for 2020-12.
+
+--- Fetching papers for 2021-01 ---
+Found 719 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 719/719 [00:00<00:00, 239531.74it/s]
+Saved 719 papers for 2021-01.
+
+--- Fetching papers for 2021-02 ---
+Found 970 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 970/970 [00:00<00:00, 242430.87it/s]
+Saved 970 papers for 2021-02.
+
+--- Fetching papers for 2021-03 ---
+Found 973 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 973/973 [00:00<00:00, 151966.40it/s]
+Saved 973 papers for 2021-03.
+
+--- Fetching papers for 2021-04 ---
+Found 988 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 988/988 [00:00<00:00, 102413.87it/s]
+Saved 988 papers for 2021-04.
+
+--- Fetching papers for 2021-05 ---
+Found 921 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 921/921 [00:00<00:00, 54100.72it/s]
+Saved 921 papers for 2021-05.
+
+--- Fetching papers for 2021-06 ---
+Found 1261 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1261/1261 [00:00<00:00, 282820.03it/s]
+Saved 1261 papers for 2021-06.
+
+--- Fetching papers for 2021-07 ---
+Found 997 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 997/997 [00:00<00:00, 249372.12it/s]
+Saved 997 papers for 2021-07.
+
+--- Fetching papers for 2021-08 ---
+Found 845 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 845/845 [00:00<00:00, 84178.96it/s]
+Saved 845 papers for 2021-08.
+
+--- Fetching papers for 2021-09 ---
+Found 1094 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1094/1094 [00:00<00:00, 160153.87it/s]
+Saved 1094 papers for 2021-09.
+
+--- Fetching papers for 2021-10 ---
+Found 1296 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1296/1296 [00:00<00:00, 979426.66it/s]
+Saved 1296 papers for 2021-10.
+
+--- Fetching papers for 2021-11 ---
+Found 1005 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1005/1005 [00:00<00:00, 125893.01it/s]
+Saved 1005 papers for 2021-11.
+
+--- Fetching papers for 2021-12 ---
+Found 1059 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1059/1059 [00:00<00:00, 173982.29it/s]
+Saved 1059 papers for 2021-12.
+
+--- Fetching papers for 2022-01 ---
+Found 874 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 874/874 [00:00<00:00, 45193.45it/s]
+Saved 874 papers for 2022-01.
+
+--- Fetching papers for 2022-02 ---
+An error occurred for 2022-02: Page of results was unexpectedly empty (https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI%29+AND+submittedDate%3A%5B20220201+TO+20220228%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=1000&max_results=1000)
+Skipping this month.
+
+--- Fetching papers for 2022-03 ---
+Found 1234 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1234/1234 [00:00<00:00, 157615.30it/s]
+Saved 1234 papers for 2022-03.
+
+--- Fetching papers for 2022-04 ---
+An error occurred for 2022-04: Page of results was unexpectedly empty (https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI%29+AND+submittedDate%3A%5B20220401+TO+20220430%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=1025&max_results=1000)
+Skipping this month.
+
+--- Fetching papers for 2022-05 ---
+An error occurred for 2022-05: Page of results was unexpectedly empty (https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI%29+AND+submittedDate%3A%5B20220501+TO+20220531%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=1000&max_results=1000)
+Skipping this month.
+
+--- Fetching papers for 2022-06 ---
+An error occurred for 2022-06: Page of results was unexpectedly empty (https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI%29+AND+submittedDate%3A%5B20220601+TO+20220630%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=1000&max_results=1000)
+Skipping this month.
+
+--- Fetching papers for 2022-07 ---
+An error occurred for 2022-07: Page of results was unexpectedly empty (https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI%29+AND+submittedDate%3A%5B20220701+TO+20220731%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=1000&max_results=1000)
+Skipping this month.
+
+--- Fetching papers for 2022-08 ---
+Found 913 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 913/913 [00:00<00:00, 57936.93it/s]
+Saved 913 papers for 2022-08.
+
+--- Fetching papers for 2022-09 ---
+Found 1134 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1134/1134 [00:00<00:00, 134485.28it/s]
+Saved 1134 papers for 2022-09.
+
+--- Fetching papers for 2022-10 ---
+Found 1678 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1678/1678 [00:00<00:00, 218186.51it/s]
+Saved 1678 papers for 2022-10.
+
+--- Fetching papers for 2022-11 ---
+Found 1352 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1352/1352 [00:00<00:00, 28752.87it/s]
+Saved 1352 papers for 2022-11.
+
+--- Fetching papers for 2022-12 ---
+Found 1133 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1133/1133 [00:00<00:00, 198055.62it/s]
+Saved 1133 papers for 2022-12.
+
+--- Fetching papers for 2023-01 ---
+Found 986 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 986/986 [00:00<00:00, 246488.48it/s]
+Saved 986 papers for 2023-01.
+
+--- Fetching papers for 2023-02 ---
+An error occurred for 2023-02: Page of results was unexpectedly empty (https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI%29+AND+submittedDate%3A%5B20230201+TO+20230228%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=1000&max_results=1000)
+Skipping this month.
+
+--- Fetching papers for 2023-03 ---
+Found 1587 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1587/1587 [00:00<00:00, 132856.18it/s]
+Saved 1587 papers for 2023-03.
+
+--- Fetching papers for 2023-04 ---
+Found 1331 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1331/1331 [00:00<00:00, 189930.21it/s]
+Saved 1331 papers for 2023-04.
+
+--- Fetching papers for 2023-05 ---
+Found 2272 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2272/2272 [00:00<00:00, 39162.21it/s]
+Saved 2272 papers for 2023-05.
+
+--- Fetching papers for 2023-06 ---
+Found 1849 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1849/1849 [00:00<00:00, 129914.87it/s]
+Saved 1849 papers for 2023-06.
+
+--- Fetching papers for 2023-07 ---
+Found 1564 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1564/1564 [00:00<00:00, 82964.14it/s]
+Saved 1564 papers for 2023-07.
+
+--- Fetching papers for 2023-08 ---
+Found 1727 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1727/1727 [00:00<00:00, 187666.80it/s]
+Saved 1727 papers for 2023-08.
+
+--- Fetching papers for 2023-09 ---
+Found 1824 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1824/1824 [00:00<00:00, 196496.90it/s]
+Saved 1824 papers for 2023-09.
+
+--- Fetching papers for 2023-10 ---
+Found 2427 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2427/2427 [00:00<00:00, 176796.27it/s]
+Saved 2427 papers for 2023-10.
+
+--- Fetching papers for 2023-11 ---
+Found 2047 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2047/2047 [00:00<00:00, 182206.24it/s]
+Saved 2047 papers for 2023-11.
+
+--- Fetching papers for 2023-12 ---
+Found 2047 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2047/2047 [00:00<00:00, 118631.81it/s]
+Saved 2047 papers for 2023-12.
+
+--- Fetching papers for 2024-01 ---
+Found 1872 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 1872/1872 [00:00<00:00, 555206.98it/s]
+Saved 1872 papers for 2024-01.
+
+--- Fetching papers for 2024-02 ---
+Found 2646 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2646/2646 [00:00<00:00, 168089.79it/s]
+Saved 2646 papers for 2024-02.
+
+--- Fetching papers for 2024-03 ---
+An error occurred for 2024-03: Page of results was unexpectedly empty (https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI%29+AND+submittedDate%3A%5B20240301+TO+20240331%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=400&max_results=1000)
+Skipping this month.
+
+--- Fetching papers for 2024-04 ---
+Found 2330 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2330/2330 [00:00<00:00, 184057.71it/s]
+Saved 2330 papers for 2024-04.
+
+--- Fetching papers for 2024-05 ---
+Found 2697 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2697/2697 [00:00<00:00, 129335.12it/s]
+Saved 2697 papers for 2024-05.
+
+--- Fetching papers for 2024-06 ---
+Found 3212 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 3212/3212 [00:00<00:00, 121677.24it/s]
+Saved 3212 papers for 2024-06.
+
+--- Fetching papers for 2024-07 ---
+Found 2564 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2564/2564 [00:00<00:00, 137407.47it/s]
+Saved 2564 papers for 2024-07.
+
+--- Fetching papers for 2024-08 ---
+An error occurred for 2024-08: Page of results was unexpectedly empty (https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI%29+AND+submittedDate%3A%5B20240801+TO+20240831%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=1000&max_results=1000)
+Skipping this month.
+
+--- Fetching papers for 2024-09 ---
+An error occurred for 2024-09: Page of results was unexpectedly empty (https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI%29+AND+submittedDate%3A%5B20240901+TO+20240930%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=2235&max_results=1000)
+Skipping this month.
+
+--- Fetching papers for 2024-10 ---
+An error occurred for 2024-10: Page of results was unexpectedly empty (https://export.arxiv.org/api/query?search_query=%28cat%3Acs.AI%29+AND+submittedDate%3A%5B20241001+TO+20241031%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=1000&max_results=1000)
+Skipping this month.
+
+--- Fetching papers for 2024-11 ---
+Found 2591 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2591/2591 [00:00<00:00, 158971.37it/s]
+Saved 2591 papers for 2024-11.
+
+--- Fetching papers for 2024-12 ---
+Found 2996 papers. Processing...
+100%|██████████████████████████████████████████████████████████████████████████| 2996/2996 [00:00<00:00, 187129.72it/s]
+Saved 2996 papers for 2024-12.
+
+--- Script Finished ---
+All fetched data saved in arxiv_ai_metadata.csv
+PS C:\Users\Hp\Downloads\minor>

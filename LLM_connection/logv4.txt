@@ -1,0 +1,117 @@
+(myenv) PS C:\Users\DELL_\Downloads> python v4.py
+Initializing the Advanced RAG-v4 query engine...
+Using device: cuda
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:08<00:00,  2.06s/it]
+Initialization complete. Ready for epistemic queries.
+
+Ask a research question (or 'quit'): what is explainable ai, how much work is done in this field
+
+--- New Query (v4: Advanced Rerank + Fusion) ---
+Original Query: what is explainable ai, how much work is done in this field
+Step 1: Expanding query into multi-variants...
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Expanded to 4 variants.
+Retrieved 37 unique chunks pre-rerank.
+Step 2: Reranking chunks...
+Reranked to top-20.
+Step 3: Adaptive fusion and temporal filtering...
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Step 4: Generating enhanced answer...
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+
+--- v4 Generated Answer ---
+### Synthesized Answer
+
+Explainable AI (XAI) refers to the development of techniques and methods that enable AI systems to provide transparent, interpretable, and understandable explanations for their decisions and actions. The field of XAI is a rapidly growing area of research, driven by the increasing need for trustworthy and accountable AI systems in various domains, including healthcare, finance, and transportation.
+
+The concept of XAI has a long history, dating back to the 1990s, but it gained significant attention in the 2010s with the publication of several influential papers, including "What does explainable AI really mean? A new conceptualization of perspectives" by Doran et al. (2017). Since then, a vast amount of research has been conducted on XAI, covering various aspects, such as techniques for model interpretability, visualizations, and explanations.
+
+According to the sources, there are several key challenges and opportunities in the field of XAI, including the need for standardized evaluation metrics, the development of more effective explanation techniques, and the integration of XAI with other AI areas, such as reinforcement learning and neural-symbolic reasoning.
+
+While there is a significant amount of work done in the field of XAI, there is still much to be explored, and the field is constantly evolving. Researchers are actively working on developing new methods and techniques for XAI, and the topic is becoming increasingly important in the AI community.
+
+### Key Findings
+
+* Explainable AI (XAI) is a rapidly growing area of research, driven by the need for trustworthy and accountable AI systems.
+* The concept of XAI has a long history, dating back to the 1990s, but gained significant attention in the 2010s.
+* Techniques for model interpretability, visualizations, and explanations are key areas of research in XAI.
+* Standardized evaluation metrics and more effective explanation techniques are needed in XAI.
+* XAI is being integrated with other AI areas, such as reinforcement learning and neural-symbolic reasoning.
+* The field of XAI is constantly evolving, with new methods and techniques being developed.
+
+### Sources
+
+- [Impact Of Explainable AI On Cognitive Load: Insights From An Empirical Study](http://arxiv.org/pdf/2304.08861v1)
+- [Analogical proportions II](http://arxiv.org/pdf/2405.13461v1)
+- [What do we need to build explainable AI systems for the medical domain?](http://arxiv.org/pdf/1712.09923v1)
+- [Towards Explainable Neural-Symbolic Visual Reasoning](http://arxiv.org/pdf/1909.09065v2)
+- [Explainable Goal-Driven Agents and Robots -- A Comprehensive Review](http://arxiv.org/pdf/2004.09705v9)
+- [Generalized Constraints as A New Mathematical Problem in Artificial Intelligence: A Review and Perspective](http://arxiv.org/pdf/2011.06156v1)
+- [The AI Act proposal: a new right to technical interpretability?](http://arxiv.org/pdf/2303.17558v1)
+- [Expanding Explainability: Towards Social Transparency in AI systems](http://arxiv.org/pdf/2101.04719v1)
+- [Explainability Is in the Mind of the Beholder: Establishing the Foundations of Explainable Artificial Intelligence](http://arxiv.org/pdf/2112.14466v2)
+- [Energy-frugal and Interpretable AI Hardware Design using Learning Automata](http://arxiv.org/pdf/2305.11928v1)
+
+### Confidence
+High
+
+Ask a research question (or 'quit'): tell me about advances in crop disease predictions
+
+--- New Query (v4: Advanced Rerank + Fusion) ---
+Original Query: tell me about advances in crop disease predictions
+Step 1: Expanding query into multi-variants...
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Expanded to 4 variants.
+Retrieved 33 unique chunks pre-rerank.
+Step 2: Reranking chunks...
+Reranked to top-20.
+Step 3: Adaptive fusion and temporal filtering...
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Step 4: Generating enhanced answer...
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+
+--- v4 Generated Answer ---
+### Synthesized Answer
+
+Recent advances in crop disease predictions have been driven by the application of machine learning (ML) and deep learning (DL) techniques. Studies have shown that ML models, particularly Convolutional Neural Networks (CNNs), can be effectively used for image processing, classification, and prediction in agriculture. These models have been used for tasks such as crop disease detection, fruit classification, and yield estimation. The use of DL techniques has also enabled the development of more accurate and robust models for crop disease prediction.
+
+One of the key challenges in crop disease prediction is the ability to accurately detect and classify diseases using visual data. Researchers have proposed various approaches, including the use of CycleGAN for synthesizing samples for wheat head segmentation and the development of a channel attention-driven hybrid CNN framework for paddy leaf disease detection. These approaches have shown promising results in terms of accuracy and robustness.
+
+In addition to ML and DL techniques, other advances in crop disease prediction include the use of large language models, such as FoodSky, which have been shown to be effective in passing chef and dietetic examinations. These models have the potential to be used for a wide range of applications in agriculture, including crop disease prediction.
+
+Overall, the advances in crop disease predictions have been significant, and ongoing research is expected to further improve the accuracy and robustness of these models.
+
+### Key Findings
+
+* Machine learning (ML) and deep learning (DL) techniques have been widely used for crop disease prediction and detection.
+* Convolutional Neural Networks (CNNs) have been shown to be effective for image processing, classification, and prediction in agriculture.
+* CycleGAN has been used for synthesizing samples for wheat head segmentation.
+* A channel attention-driven hybrid CNN framework has been developed for paddy leaf disease detection.
+* Large language models, such as FoodSky, have been shown to be effective in passing chef and dietetic examinations.
+
+### Sources
+
+* [A Hybrid Deep Learning-based Approach for Optimal Genotype by Environment Selection](http://arxiv.org/pdf/2309.13021v1)
+* [CYPUR-NN: Crop Yield Prediction Using Regression and Neural Networks](http://arxiv.org/pdf/2011.13265v1)
+* [ChatGPT in the context of precision agriculture data analytics](http://arxiv.org/pdf/2311.06390v1)
+* [Modified CycleGAN for the synthesization of samples for wheat head segmentation](http://arxiv.org/pdf/2402.15135v1)
+* [Artificial Intelligence for Social Good: A Survey](http://arxiv.org/pdf/2001.01818v1)
+* [Information Fusion in Smart Agriculture: Machine Learning Applications and Future Research Directions](http://arxiv.org/pdf/2405.17465v2)
+* [Predicting Agricultural Commodities Prices with Machine Learning: A Review of Current Research](http://arxiv.org/pdf/2310.18646v1)
+* [A Channel Attention-Driven Hybrid CNN Framework for Paddy Leaf Disease Detection](http://arxiv.org/pdf/2407.11753v1)
+* [Innovations in Agricultural Forecasting: A Multivariate Regression Study on Global Crop Yield Prediction](http://arxiv.org/pdf/2312.02254v2)
+* [FoodSky: A Food-oriented Large Language Model that Passes the Chef and Dietetic Examination](http://arxiv.org/pdf/2406.10261v1)
+
+### Confidence
+High
+
+Ask a research question (or 'quit'):

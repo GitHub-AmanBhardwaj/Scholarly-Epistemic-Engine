@@ -1,0 +1,21 @@
+(env) PS C:\Users\DELL\Downloads> python a.py
+Loading data and embedding model...
+Using device: cuda
+CUDA Device Name: NVIDIA GeForce RTX 5090
+CUDA Version PyTorch was compiled with: 12.8
+Loaded 87984 papers successfully.
+Loading sentence transformer model: sentence-transformers/all-mpnet-base-v2...
+Database and collection are ready.
+Checking for already processed documents to resume...
+Found 48847 new papers to process.
+Processing papers and adding to the vector database...
+100%|███████████████████████████████████████████████████████████| 48847/48847 [4:24:21<00:00, 3.08it/s]
+--- Database Creation Complete! ---
+The collection 'ai_nl_papers_mpnet_base_v2' now contains 7496671 document chunks.
+(env) PS C:\Users\DELL\Downloads>
+
+
+
+
+----------------------------------------------------
+Note: The above log is for the second run of the program execution showcasing resume logic.

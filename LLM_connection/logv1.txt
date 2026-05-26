@@ -1,0 +1,52 @@
+(env) PS C:\Users\DELL_\Downloads> python rag.py
+Initializing the RAG query engine...
+Using device: cuda
+Loading vector database from: ./chroma_db_ai_papers_mpnet
+Loading embedding model: sentence-transformers/all-mpnet-base-v2
+Loading LLM for generation: llama...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████| 4/4 [00:06<00:00,  1.72s/it]
+Initialization complete. You can now ask questions.
+
+Ask a research question (or type 'quit' to exit): tell me about recent research on transformers
+
+--- New Query ---
+Query: tell me about recent research on transformers
+Step 1: Retrieving relevant documents from the database...
+Step 2: Constructing prompt for the LLM...
+Step 3: Generating answer with the LLM...
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+
+--- Generated Answer ---
+Recent research on transformers has focused on various aspects, including their application in
+click-through rate prediction, robotic manipulation tasks, and reinforcement learning. Studies have
+also explored the stability of transformers in reinforcement learning and their use in multi-
+document summarization.  In 2022, a survey of transformers by Steffen Rendle and another by Haotian
+Liu et al. provided an overview of the current state of transformers, highlighting their potential
+applications and limitations. Additionally, Mostafa Dehghani et al. investigated the use of
+universal transformers in 2017, while a study in 2022 by Efficient transformers: A survey, explored
+the efficiency of transformers.  Recent research has also shown that transformers can be stabilized
+for reinforcement learning, as demonstrated by Mostafa Dehghani et al. in 2017. Furthermore, the use
+of recurrent transformers with dynamic halt has been investigated, as mentioned in the paper
+'Investigating Recurrent Transformers with Dynamic Halt' from 2022.  The application of transformers
+in multi-document summarization has also been explored, with a study by Peter J. Liu et al. in 2018
+highlighting the potential of transformers in this area.  In summary, recent research on
+transformers has led to a deeper understanding of their capabilities and limitations, and has
+explored their applications in various areas, including click-through rate prediction, robotic
+manipulation tasks, reinforcement learning, and multi-document summarization.  **Titles of papers
+used as sources:**  1. 'EMOFM: Ensemble MLP mOdel with Feature-based Mixers for Click-Through Rate
+Prediction' 2. 'Investigating the Role of Instruction Variety and Task Difficulty in Robotic
+Manipulation Tasks' 3. 'Stabilizing Transformers for Reinforcement Learning' 4. 'Investigating
+Recurrent Transformers with Dynamic Halt' 5. 'Efficient transformers: A survey' 6. 'A Survey of
+Transformers' 7. 'Universal transformers' 8. 'A Survey of Transformers'
+
+--- Sources Used ---
+- EMOFM: Ensemble MLP mOdel with Feature-based Mixers for Click-Through Rate Prediction
+- Investigating Recurrent Transformers with Dynamic Halt
+- Investigating the Role of Instruction Variety and Task Difficulty in Robotic Manipulation Tasks
+- Rethinking Transformer-based Multi-document Summarization: An Empirical Investigation
+- Stabilizing Transformers for Reinforcement Learning
+
+Ask a research question (or type 'quit' to exit):
