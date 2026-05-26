@@ -16,7 +16,6 @@ The Scholarly-Epistemic-Engine is an advanced Retrieval-Augmented Generation (RA
 
 ## Architecture
 
-*(Note: Upload your `architecture.png` from your paper to a `docs/` or `assets/` folder in this repo, then replace the image link below)*
 
 ![System Architecture](assets/architecture.png) 
 *Figure 1: The four-phase architectural methodology, moving from offline data preparation to real-time interactive retrieval.*
@@ -72,7 +71,7 @@ To ensure full reproducibility, the implementation materials and datasets suppor
 * **Codebase:** The extraction scripts, vectorization code, and RAG execution environments are available in this repository.
 * **Dataset & Embeddings:** The complete processed corpus (87,984 manuscripts, 7.49 million chunks) and the pre-computed `all-mpnet-base-v2` ChromaDB vectors (>50 GB) are hosted on Hugging Face.
 
-**Access the dataset here:** [Hugging Face Dataset Link](https://www.google.com/search?q=https://huggingface.co/datasets/%5BYOUR_USERNAME%5D/%5BYOUR_DATASET%5D)
+**Access the dataset here:** [Hugging Face Dataset Link](https://huggingface.co/datasets/whyamanbhardwaj/Scholarly-Epistemic-Engine)
 
 ---
 
@@ -123,8 +122,7 @@ python app.py
 
 ```
 
-*(Note: Upload your `sample.png` showing the GUI from the paper to the repository and link it below)*
-
+![Web Interface](assets/sample.png)
 
 *Figure 2: The interactive web interface demonstrating structured markdown output and verifiable sources.*
 
@@ -134,8 +132,7 @@ python app.py
 
 The system was evaluated using an information-theoretic framework measuring **Relevance** (Mean Similarity), **Diversity** (Shannon Entropy), and **Semantic Faithfulness** (LLM-as-a-Judge). The V4 pipeline demonstrated the highest capacity to mitigate hallucinations while maintaining robust semantic alignment.
 
-*(Note: Upload your `rag_professional_horizontal.png` or radar chart from the paper and link it below)*
-
+![Evaluation Results](assets/rag_professional_horizontal.png)
 
 *Figure 3: Comparative performance analysis of the four RAG variants.*
 
@@ -147,15 +144,3 @@ Detailed testing logs and metric outputs can be found in `testing/testing_logs.t
 
 * **Code:** The source code in this repository is licensed under the [MIT License](https://www.google.com/search?q=LICENSE).
 * **Data:** The dataset and vector embeddings hosted on Hugging Face are licensed under **CC-BY-NC-SA 4.0** for academic and non-commercial research purposes.
-
-***
-
-### Recommended Images to Add:
-To make this `README.md` work perfectly, I highly recommend creating a folder named `assets` in your GitHub repository and uploading these three exact images from your paper:
-1. **`architecture.png`**: The flowchart showing Phase 1 to Phase 4.
-2. **`sample.png`**: The screenshot of your web interface/chatbot GUI.
-3. **`rag_professional_horizontal.png`** (or the radar chart): The graph showing the performance metrics of V1 through V4. 
-
-Once those are in the `assets` folder, the image links in the markdown above will automatically display them on your GitHub page!
-
-```
