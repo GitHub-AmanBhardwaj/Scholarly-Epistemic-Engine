@@ -55,7 +55,7 @@ All resources required to reproduce the findings of this study are publicly avai
 
 * **Code Repository:** This GitHub repository contains the RAG evaluation framework, vectorization scripts, and text extraction pipeline.
 * **Data Repository (Hugging Face):** The complete processed corpus (87,984 manuscripts) and the pre-computed ChromaDB index (7.49 million embeddings, >50 GB) are hosted externally on Hugging Face.
-* 
+
 **Access the dataset here:**  
 
 [🤗 Hugging Face Dataset – Scholarly-Epistemic-Engine](https://huggingface.co/datasets/whyamanbhardwaj/Scholarly-Epistemic-Engine)
@@ -67,7 +67,7 @@ All resources required to reproduce the findings of this study are publicly avai
 **1. Clone the repository:**
 
 ```bash
-git clone [https://github.com/GitHub-AmanBhardwaj/Scholarly-Epistemic-Engine.git](https://github.com/GitHub-AmanBhardwaj/Scholarly-Epistemic-Engine.git)
+git clone https://github.com/GitHub-AmanBhardwaj/Scholarly-Epistemic-Engine.git
 cd Scholarly-Epistemic-Engine
 
 ```
@@ -109,7 +109,7 @@ python app.py
 
 ![Web Interface](assets/sample.png)
 
-*Figure 2: The interactive web interface demonstrating structured markdown output and verifiable sources.*
+*Figure 1: The interactive web interface demonstrating structured markdown output and verifiable sources.*
 
 ---
 
@@ -119,7 +119,7 @@ The system was evaluated using an information-theoretic framework measuring **Re
 
 ![Evaluation Results](assets/rag_professional_horizontal.png)
 
-*Figure 3: Comparative performance analysis of the four RAG variants.*
+*Figure 2: Comparative performance analysis of the four RAG variants.*
 
 Detailed testing logs and metric outputs can be found in `testing/testing_logs.txt`.
 
