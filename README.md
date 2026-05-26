@@ -71,8 +71,8 @@ To ensure full reproducibility, the implementation materials and datasets suppor
 * **Codebase:** The extraction scripts, vectorization code, and RAG execution environments are available in this repository.
 * **Dataset & Embeddings:** The complete processed corpus (87,984 manuscripts, 7.49 million chunks) and the pre-computed `all-mpnet-base-v2` ChromaDB vectors (>50 GB) are hosted on Hugging Face.
 
-**Access the dataset here:** [Hugging Face Dataset Link](https://huggingface.co/datasets/whyamanbhardwaj/Scholarly-Epistemic-Engine)
-
+**Access the dataset here:**  
+[🤗 Hugging Face Dataset – Scholarly-Epistemic-Engine](https://huggingface.co/datasets/whyamanbhardwaj/Scholarly-Epistemic-Engine)
 ---
 
 ## Installation and Setup
@@ -92,8 +92,6 @@ Requires Python 3.9+. It is recommended to use a virtual environment.
 pip install -r requirements.txt
 
 ```
-
-*(Ensure you add a `requirements.txt` to your repo containing packages like `torch`, `transformers`, `chromadb`, `sentence-transformers`, `flask`, etc.)*
 
 **3. Download the Vector Database:**
 Download the `chroma_db` directory from the Hugging Face dataset link and place it in the root directory of this repository to bypass the 40+ hour vectorization process.
@@ -142,5 +140,5 @@ Detailed testing logs and metric outputs can be found in `testing/testing_logs.t
 
 ## License
 
-* **Code:** The source code in this repository is licensed under the [MIT License](https://www.google.com/search?q=LICENSE).
+* **Code:** The source code in this repository is licensed under the **MIT License**.
 * **Data:** The dataset and vector embeddings hosted on Hugging Face are licensed under **CC-BY-NC-SA 4.0** for academic and non-commercial research purposes.
