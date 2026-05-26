@@ -14,12 +14,6 @@ The Scholarly-Epistemic-Engine is an advanced Retrieval-Augmented Generation (RA
 
 ---
 
-## Architecture
-
-
-![System Architecture](assets/architecture.png) 
-*Figure 1: The four-phase architectural methodology, moving from offline data preparation to real-time interactive retrieval.*
-
 The framework is built on a progressive four-stage evolution:
 1. **V1 (Naive RAG):** Direct retrieval and standard context generation.
 2. **V2 (Query Rewriting):** LLM-based query optimization for enhanced semantic matching.
