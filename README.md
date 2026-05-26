@@ -13,14 +13,6 @@ The Scholarly-Epistemic-Engine is an advanced Retrieval-Augmented Generation (RA
 
 ---
 
-The framework is built on a progressive four-stage evolution:
-1. **V1 (Naive RAG):** Direct retrieval and standard context generation.
-2. **V2 (Query Rewriting):** LLM-based query optimization for enhanced semantic matching.
-3. **V3 (Dynamic Prompting):** Structured synthesis enforcing markdown formatting and verifiable, clickable sources.
-4. **V4 (Advanced Fusion):** Multi-query expansion, over-fetching (40 chunks), cross-encoder reranking (top 20), and LLM-guided adaptive fusion (top 10).
-
----
-
 ## Repository Structure
 
 The repository is organized to reflect the discrete phases of the methodology:
@@ -59,11 +51,11 @@ The repository is organized to reflect the discrete phases of the methodology:
 
 ## Data Availability
 
-To ensure full reproducibility, the implementation materials and datasets supporting this study have been made publicly accessible.
+All resources required to reproduce the findings of this study are publicly available:
 
-* **Codebase:** The extraction scripts, vectorization code, and RAG execution environments are available in this repository.
-* **Dataset & Embeddings:** The complete processed corpus (87,984 manuscripts, 7.49 million chunks) and the pre-computed `all-mpnet-base-v2` ChromaDB vectors (>50 GB) are hosted on Hugging Face.
-
+* **Code Repository:** This GitHub repository contains the RAG evaluation framework, vectorization scripts, and text extraction pipeline.
+* **Data Repository (Hugging Face):** The complete processed corpus (87,984 manuscripts) and the pre-computed ChromaDB index (7.49 million embeddings, >50 GB) are hosted externally on Hugging Face.
+* 
 **Access the dataset here:**  
 
 [🤗 Hugging Face Dataset – Scholarly-Epistemic-Engine](https://huggingface.co/datasets/whyamanbhardwaj/Scholarly-Epistemic-Engine)
