@@ -7,7 +7,7 @@
 
 The **Scholarly-Epistemic-Engine** is an advanced Retrieval-Augmented Generation (RAG) framework designed to address information overload in scientific literature. By orchestrating a vast corpus of nearly 90,000 arXiv cs.AI papers (1993–2024), this system transitions from a baseline naive RAG (V1) to a highly optimized, faithfully grounded synthesis engine (V4). The final pipeline utilizes query expansion, cross-encoder reranking, and Large Language Model (LLM) fusion to deliver highly accurate, verifiable research answers.
 
-> **Note on Data Availability:** This GitHub repository hosts the execution scripts, UI, and framework infrastructure. Due to size constraints, the full processed dataset (~56 GB) and pre-computed ChromaDB vector embeddings are hosted separately on Hugging Face. See the [Data Availability](#data-availability) section for access.
+> **Note on Data Storage:** This GitHub repository contains only the code (execution scripts, UI, and framework). Due to size constraints, the heavy data assets—including the processed csv files and pre-computed ChromaDB embeddings (total ~56 GB) are hosted entirely on Hugging Face. See the [Data Availability](#data-availability) section for access.
 
 ---
 
@@ -19,28 +19,31 @@ The repository is organized to reflect the discrete phases of the methodology:
 .
 ├── LICENSE
 ├── README.md
-├── requirements.txt             # Project dependencies
-├── data_pipeline/               # Phase 1-3: Offline Data Preparation
-│   ├── meta_data_fetch.py       # Resumable arXiv API metadata scraping
-│   ├── data_processing.ipynb    # Stateless PDF extraction and text cleaning
-│   ├── full_text_data_creation.ipynb 
-│   ├── vectorization.py         # Embedding generation and ChromaDB indexing
-│   └── *_logs.txt               # Output logs for data operations
-├── LLM_connection/              # Phase 4: The 4-Stage RAG Engine
-│   ├── rag_connection_v1.py     # Naive RAG implementation
-│   ├── rag_connection_v2.py     # Query rewriting pipeline
-│   ├── rag_connection_v3.py     # Sourced synthesis pipeline
-│   ├── rag_connection_v4.py     # Full cross-encoder reranking & fusion pipeline
-│   └── logv*.txt                # Execution logs for each RAG variant
-├── results_and_analysis/        # Output Artifacts and Metrics
-│   ├── sample_llm_result.md     # Markdown output sample
-│   ├── sample_llm_result.pdf    
-│   └── yearly_publications_plot.png # Exploratory Data Analysis visuals
-└── web_module/                  # User Interface
-    ├── app.py                   # Web application routing
-    ├── static/                  # Static assets (CSS)
-    └── templates/               
-        └── chatbot.html         # Front-end GUI for the RAG system
+├── requirements.txt                 # Project dependencies
+├── data_pipeline/                   # Phase 1-3: Data Preparation
+│   ├── data_processing.ipynb        # Data cleaning, formatting, and final dataset consolidation
+│   ├── full_text_data_creation.ipynb # Stateless PDF downloading and PyMuPDF full-text extraction
+│   ├── meta_data_fetch.py           # Resumable arXiv API metadata scraping
+│   ├── meta_data_fetch_logs.txt     # Output logs for metadata operations
+│   ├── vectorization.py             # Embedding generation and ChromaDB indexing
+│   └── vectorization_log.txt        # Execution logs for vectorization
+├── LLM_connection/                  # Phase 4: The 4-Stage RAG Engine
+│   ├── rag_connection_v1.py         # Naive RAG implementation
+│   ├── rag_connection_v2.py         # Query rewriting pipeline
+│   ├── rag_connection_v3.py         # Sourced synthesis pipeline
+│   ├── rag_connection_v4.py         # Full cross-encoder reranking & fusion pipeline
+|   ├── logv1.txt                    # Execution logs for each RAG variant
+|   ├── logv2.txt
+|   ├── logv3.txt
+│   └── logv4.txt
+├── results_and_analysis/            # Output Artifacts of final system
+│   ├── sample_llm_result.md         # Markdown output sample
+│   └── sample_llm_result.pdf        # PDF output sample
+└── web_module/                      # User Interface
+    ├── app.py                       # Web application routing
+    ├── static/                      # Static assets
+    └── templates/                   
+        └── chatbot.html             # Front-end GUI for the RAG system
 
 ```
 
@@ -48,16 +51,9 @@ The repository is organized to reflect the discrete phases of the methodology:
 
 ## Data Availability
 
-To ensure complete reproducibility, the resources for this study are openly available across two platforms:
+Due to repository size constraints, the complete ~56 GB data ecosystem is hosted externally on Hugging Face. This dataset provides every artifact from our pipeline to ensure full reproducibility: from the initial master catalog of 89,375 scraped papers (`metadata.csv`) and the raw extraction checkpoints (`v1.csv` through `v4.csv`), to the finalized, cleaned text corpus of 87,984 manuscripts (`final_data.csv`). 
 
-* **Code Repository (GitHub):** Contains the RAG evaluation framework, vectorization scripts, UI module, and the final RAG generation logs (`logv*.txt`).
-* **Data Repository (Hugging Face):** Due to size constraints (~56 GB), the core data assets are hosted externally. The Hugging Face repository contains:
-* `metadata.csv`: The master catalog for all 89,375 scraped papers (Phase 1).
-* `v1.csv` to `v4.csv`: Iterative checkpoints of the full-text extraction process.
-* `final_data.csv`: The consolidated, cleaned, statelessly extracted full text of 87,984 processed PDFs (Phase 2 output).
-* `chroma_db_ai_papers_mpnet.rar`: The compressed ChromaDB vector database containing 7,496,671 chunks and their corresponding embeddings. Download and extract this archive to bypass the vectorization phase.
-
-
+Additionally, we provide the fully compiled vector database (`chroma_db_ai_papers_mpnet.rar`). Downloading and extracting this archive provides immediate access to the 7.49 million pre-computed text chunks and their embeddings, allowing you to bypass the computationally expensive vectorization phase entirely.
 
 **Access the dataset here:** 
 
@@ -70,7 +66,7 @@ To ensure complete reproducibility, the resources for this study are openly avai
 **1. Clone the repository:**
 
 ```bash
-git clone [https://github.com/GitHub-AmanBhardwaj/Scholarly-Epistemic-Engine.git](https://github.com/GitHub-AmanBhardwaj/Scholarly-Epistemic-Engine.git)
+git clone https://github.com/GitHub-AmanBhardwaj/Scholarly-Epistemic-Engine.git
 cd Scholarly-Epistemic-Engine
 
 ```
@@ -80,13 +76,10 @@ This project requires Python 3.9+. It is highly recommended to use a virtual env
 
 ```bash
 python -m venv env
-source env/bin/activate  # On Windows use: env\Scripts\activate
+env\Scripts\activate
 pip install -r requirements.txt
 
 ```
-
-**3. Download the Vector Database:**
-To bypass the 40+ hour vectorization process, download the `chroma_db_ai_papers_mpnet.rar` file from the Hugging Face dataset link. Extract it and place the resulting `chroma_db` directory in the root folder of this repository.
 
 ---
 
@@ -113,14 +106,6 @@ python app.py
 ```
 
 *(The application will typically host on `http://127.0.0.1:5000/`. Check your terminal output for the exact local address).*
-
----
-
-## Evaluation Results
-
-The system was evaluated using an information-theoretic framework measuring **Relevance** (Mean Similarity), **Diversity** (Shannon Entropy), and **Semantic Faithfulness** (LLM-as-a-Judge).
-
-Moving from standard retrieval (V1) to an advanced multi-step pipeline (V4), the system demonstrated a significant reduction in hallucinations. The final **V4 pipeline** achieved a Semantic Faithfulness score of **0.732** while maintaining a robust Relevance score of **0.668**. This successfully validates the "Filter-then-Generate" paradigm, proving that employing a cross-encoder as a semantic buffer allows the LLM to synthesize reliable, verifiable academic answers from large context windows without suffering from diversity saturation.
 
 ---
 
