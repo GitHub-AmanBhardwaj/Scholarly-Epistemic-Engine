@@ -1,0 +1,12 @@
+chromadb
+transformers
+sentence-transformers
+torch
+numpy
+pandas
+tqdm
+nltk
+arxiv
+requests
+PyMuPDF
+flask
