@@ -5,11 +5,9 @@
 
 ## Overview
 
-This repository contains the source code and execution environment for the paper: **"A Four-Stage Retrieval-Augmented Generation System for Semantic Knowledge Elicitation"**. 
-
 The Scholarly-Epistemic-Engine is an advanced Retrieval-Augmented Generation (RAG) framework designed to address information overload in scientific literature. By orchestrating a vast corpus of nearly 90,000 arXiv cs.AI papers (1993–2024), this system transitions from a baseline naive RAG (V1) to a highly optimized, faithfully grounded synthesis engine (V4) utilizing query expansion, cross-encoder reranking, and Large Language Model (LLM) fusion.
 
-> **Note on Data Availability:** The execution scripts and framework are hosted here. The full 50+ GB processed dataset and pre-computed ChromaDB vector embeddings are hosted separately on Hugging Face. See the [Data Availability](#data-availability) section for access.
+> **Note on Data Availability:** The execution scripts and framework are hosted here. The full processed dataset and pre-computed ChromaDB vector embeddings are hosted separately on Hugging Face. See the [Data Availability](#data-availability) section for access.
 
 ---
 
@@ -37,8 +35,6 @@ The repository is organized to reflect the discrete phases of the methodology:
 │   ├── sample_llm_result.md     # Markdown output sample
 │   ├── sample_llm_result.pdf    
 │   └── yearly_publications_plot.png # Exploratory Data Analysis visuals
-├── testing/                     # Evaluation Framework
-│   └── testing_logs.txt         # Relevance, Diversity, and Faithfulness metrics
 └── web_module/                  # User Interface
     ├── app.py                   # Web application routing
     ├── static/                  # Static assets (logos, CSS)
@@ -120,8 +116,6 @@ The system was evaluated using an information-theoretic framework measuring **Re
 ![Evaluation Results](assets/rag_professional_horizontal.png)
 
 *Figure 2: Comparative performance analysis of the four RAG variants.*
-
-Detailed testing logs and metric outputs can be found in `testing/testing_logs.txt`.
 
 ---
 
